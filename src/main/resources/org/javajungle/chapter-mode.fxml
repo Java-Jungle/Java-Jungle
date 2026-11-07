@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.javajungle.BinaryRain?>
+<?import org.javajungle.VineFrame?>
+
+<BorderPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.javajungle.ChapterModeController" styleClass="app-root">
+    <center>
+        <StackPane styleClass="screen-frame">
+            <BinaryRain mouseTransparent="true" />
+            <VineFrame mouseTransparent="true" prefWidth="1360" prefHeight="760" />
+            <VBox styleClass="terminal chapter-terminal" spacing="18">
+                <StackPane.margin><Insets top="34" right="34" bottom="34" left="34" /></StackPane.margin>
+                <HBox styleClass="brand-bar" alignment="CENTER_LEFT" spacing="12">
+                    <Button text="← MODES" onAction="#handleBackToModes" styleClass="button-quiet" />
+                    <Label text="JAVA JUNGLE" styleClass="game-title" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Label text="CHAPTER MODE" styleClass="mode-label" />
+                    <Label fx:id="heartsLabel" text="♥  ♥  ♥" styleClass="hearts" />
+                    <Label fx:id="xpLabel" text="0 XP" styleClass="accent-green" />
+                </HBox>
+                <VBox fx:id="chapterListPage" spacing="14" VBox.vgrow="ALWAYS">
+                    <VBox spacing="6">
+                        <Label text="CHAPTER SELECT" styleClass="screen-title" />
+                        <Label text="Choose a Java topic to begin. Each chapter has 30 repair questions." styleClass="muted" />
+                    </VBox>
+                    <ScrollPane fitToWidth="true" hbarPolicy="NEVER" styleClass="case-scroll" VBox.vgrow="ALWAYS">
+                        <content><VBox fx:id="chapterList" spacing="10" styleClass="chapter-list" /></content>
+                    </ScrollPane>
+                    <Label text="30 QUESTIONS PER CHAPTER  //  300 TOTAL" styleClass="binary-motif" />
+                </VBox>
+                <VBox fx:id="chapterDetailPage" spacing="18" visible="false" managed="false" VBox.vgrow="ALWAYS">
+                    <Button text="← ALL CHAPTERS" onAction="#handleBackToChapters" styleClass="button-quiet" />
+                    <VBox spacing="8" styleClass="chapter-detail-card">
+                        <Label fx:id="chapterNumber" text="CHAPTER 01" styleClass="chapter-number" />
+                        <Label fx:id="chapterTitle" text="VARIABLES" styleClass="screen-title" />
+                        <Label fx:id="chapterDescription" styleClass="chapter-card-copy" wrapText="true" />
+                    </VBox>
+                    <Label text="SELECT DIFFICULTY" styleClass="panel-heading" />
+                    <HBox spacing="14" VBox.vgrow="ALWAYS">
+                        <VBox styleClass="difficulty-card, difficulty-easy" spacing="10" HBox.hgrow="ALWAYS">
+                            <Label text="EASY" styleClass="difficulty-card-title" />
+                            <HBox styleClass="difficulty-question-row" alignment="CENTER_LEFT" spacing="14">
+                                <StackPane styleClass="question-icon-badge, easy-question-badge">
+                                    <Label text="?" styleClass="question-icon-mark" />
+                                </StackPane>
+                                <VBox spacing="3">
+                                    <Label text="10 QUESTIONS" styleClass="difficulty-card-count" />
+                                    <Label text="JAVA CODE CHALLENGES" styleClass="difficulty-card-detail" />
+                                </VBox>
+                            </HBox>
+                            <Region VBox.vgrow="ALWAYS" />
+                            <Button text="START EASY  →" onAction="#handleEasy" styleClass="difficulty-start-button, start-easy" maxWidth="Infinity" prefHeight="48" />
+                        </VBox>
+                        <VBox styleClass="difficulty-card, difficulty-medium" spacing="10" HBox.hgrow="ALWAYS">
+                            <Label text="MEDIUM" styleClass="difficulty-card-title" />
+                            <HBox styleClass="difficulty-question-row" alignment="CENTER_LEFT" spacing="14">
+                                <StackPane styleClass="question-icon-badge, medium-question-badge">
+                                    <Label text="?" styleClass="question-icon-mark" />
+                                </StackPane>
+                                <VBox spacing="3">
+                                    <Label text="10 QUESTIONS" styleClass="difficulty-card-count" />
+                                    <Label text="JAVA CODE CHALLENGES" styleClass="difficulty-card-detail" />
+                                </VBox>
+                            </HBox>
+                            <Region VBox.vgrow="ALWAYS" />
+                            <Button text="START MEDIUM  →" onAction="#handleMedium" styleClass="difficulty-start-button, start-medium" maxWidth="Infinity" prefHeight="48" />
+                        </VBox>
+                        <VBox styleClass="difficulty-card, difficulty-hard" spacing="10" HBox.hgrow="ALWAYS">
+                            <Label text="HARD" styleClass="difficulty-card-title" />
+                            <HBox styleClass="difficulty-question-row" alignment="CENTER_LEFT" spacing="14">
+                                <StackPane styleClass="question-icon-badge, hard-question-badge">
+                                    <Label text="?" styleClass="question-icon-mark" />
+                                </StackPane>
+                                <VBox spacing="3">
+                                    <Label text="10 QUESTIONS" styleClass="difficulty-card-count" />
+                                    <Label text="JAVA CODE CHALLENGES" styleClass="difficulty-card-detail" />
+                                </VBox>
+                            </HBox>
+                            <Region VBox.vgrow="ALWAYS" />
+                            <Button text="START HARD  →" onAction="#handleHard" styleClass="difficulty-start-button, start-hard" maxWidth="Infinity" prefHeight="48" />
+                        </VBox>
+                    </HBox>
+                </VBox>
+            </VBox>
+        </StackPane>
+    </center>
+</BorderPane>

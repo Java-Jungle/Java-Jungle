@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "if statement",
+    "code": "int score = 2;\nif (score >= 50) {\n    System.out.println(\"Pass\");\n}",
+    "question": "Print Pass when the score is at least 50. Repair the missing line in the displayed code.",
+    "options": [
+      "if (score >= 50) {",
+      "if (score < 50) {",
+      "if (score >= 51) {",
+      "if (score >= 49) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "if-else",
+    "code": "int number = 3;\nif (number % 2 == 0) {\n    System.out.println(\"Even\");\n} else {\n    System.out.println(\"Odd\");\n}",
+    "question": "Print whether a number is even or odd. Repair the missing line in the displayed code.",
+    "options": [
+      "if (number % 2 == 0) {",
+      "if (number % 2 != 0) {",
+      "if (number % 3 == 0) {",
+      "if (number % 1 == 0) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "Positive or negative",
+    "code": "int value = 4;\nif (value >= 0) {\n    System.out.println(\"Non-negative\");\n} else {\n    System.out.println(\"Negative\");\n}",
+    "question": "Classify a number by its sign. Repair the missing line in the displayed code.",
+    "options": [
+      "if (value >= 0) {",
+      "if (value < 0) {",
+      "if (value >= 1) {",
+      "if (value >= 2) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "Comparison conditions",
+    "code": "int age = 5;\nif (age >= 18) {\n    System.out.println(\"Adult\");\n}",
+    "question": "Print Adult for ages 18 and above. Repair the missing line in the displayed code.",
+    "options": [
+      "if (age >= 18) {",
+      "if (age < 18) {",
+      "if (age >= 19) {",
+      "if (age >= 17) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "else branch",
+    "code": "int lives = 6;\nif (lives > 0) {\n    System.out.println(\"Continue\");\n} else {\n    System.out.println(\"Game over\");\n}",
+    "question": "Choose a message based on remaining lives. Repair the missing line in the displayed code.",
+    "options": [
+      "} else {",
+      "} else { + 1",
+      "} else { - 1",
+      "} else { * 2"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "String condition",
+    "code": "String code = \"Mia\";\nif (code.equals(\"OPEN\")) {\n    System.out.println(\"Unlocked\");\n}",
+    "question": "Unlock only when the code matches OPEN. Repair the missing line in the displayed code.",
+    "options": [
+      "if (code.equals(\"OPEN\")) {",
+      "if (code.equals(\"Mia\")) {",
+      "if (code.equals(\"OPENCount\")) {",
+      "if (code.equals(\"OPEN\")) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "Logical AND",
+    "code": "int age = 8;\nboolean hasTicket = true;\nif (age >= 18 && hasTicket) {\n    System.out.println(\"Enter\");\n}",
+    "question": "Allow entry only when both conditions are true. Repair the missing line in the displayed code.",
+    "options": [
+      "if (age >= 18 && hasTicket) {",
+      "if (age < 18 && hasTicket) {",
+      "if (age >= 19 && hasTicket) {",
+      "if (age >= 17 && hasTicket) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "Logical OR",
+    "code": "boolean hasKey = false;\nboolean hasCode = true;\nif (hasKey || hasCode) {\n    System.out.println(\"Access\");\n}",
+    "question": "Grant access when either condition is true. Repair the missing line in the displayed code.",
+    "options": [
+      "if (hasKey || hasCode) {",
+      "if (hasKey || Access) {",
+      "if (hasKey || hasCodeCount) {",
+      "if (hasKey || hasCode) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "else-if",
+    "code": "int marks = 2;\nif (marks >= 75) {\n    System.out.println(\"Distinction\");\n} else if (marks >= 50) {\n    System.out.println(\"Pass\");\n}",
+    "question": "Classify marks into distinction or pass. Repair the missing line in the displayed code.",
+    "options": [
+      "} else if (marks >= 50) {",
+      "} else if (marks < 50) {",
+      "} else if (marks >= 51) {",
+      "} else if (marks >= 49) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Easy",
+    "subtopic": "Switch statement",
+    "code": "int choice = 3;\nswitch (choice) {\n    case 1: System.out.println(\"Play\"); break;\n    case 2: System.out.println(\"Exit\"); break;\n    default: System.out.println(\"Invalid\");\n}",
+    "question": "Select an action based on a menu choice. Repair the missing line in the displayed code.",
+    "options": [
+      "switch (choice) {",
+      "switch (Play) {",
+      "switch (choiceCount) {",
+      "switch (choice) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Grade classification",
+    "code": "int marks = 4;\nif (marks >= 80) {\n    System.out.println(\"A\");\n} else if (marks >= 70) {\n    System.out.println(\"B\");\n} else {\n    System.out.println(\"C or below\");\n}",
+    "question": "Assign a grade based on the marks. Repair the missing line in the displayed code.",
+    "options": [
+      "} else if (marks >= 70) {",
+      "} else if (marks < 70) {",
+      "} else if (marks >= 71) {",
+      "} else if (marks >= 69) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Nested if",
+    "code": "int age = 5;\nboolean hasId = false;\nif (age >= 18) {\n    if (hasId) {\n        System.out.println(\"Verified\");\n    }\n}",
+    "question": "Verify a person who is old enough and has ID. Repair the missing line in the displayed code.",
+    "options": [
+      "if (hasId) {",
+      "if (age) {",
+      "if (hasIdCount) {",
+      "if (hasId) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Switch with default",
+    "code": "int option = 6;\nswitch (option) {\n    case 1: System.out.println(\"Start\"); break;\n    case 2: System.out.println(\"Settings\"); break;\n    default: System.out.println(\"Try again\");\n}",
+    "question": "Handle known menu options and unknown choices. Repair the missing line in the displayed code.",
+    "options": [
+      "default: System.out.println(\"Try again\");",
+      "default: System.out.println(\"Try option\");",
+      "default: System.out.println(\"Try againCount\");",
+      "default: System.out.println(\"Try again\") + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Range checks",
+    "code": "int temperature = 7;\nif (temperature < 0) {\n    System.out.println(\"Freezing\");\n} else if (temperature <= 25) {\n    System.out.println(\"Cool\");\n} else {\n    System.out.println(\"Warm\");\n}",
+    "question": "Classify temperature using multiple branches. Repair the missing line in the displayed code.",
+    "options": [
+      "} else if (temperature <= 25) {",
+      "} else if (temperature > 25) {",
+      "} else if (temperature <= 26) {",
+      "} else if (temperature <= 24) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Boolean flag",
+    "code": "boolean isMember = true;\ndouble price = 24.0;\nif (isMember) {\n    price *= 0.9;\n}\nSystem.out.println(price);",
+    "question": "Apply a discount only to members. Repair the missing line in the displayed code.",
+    "options": [
+      "price *= 0.9;",
+      "price *= 1.9;",
+      "price *= 2.9;",
+      "isMember *= 0.9;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "String selection",
+    "code": "String command = \"Mia\";\nif (command.equalsIgnoreCase(\"quit\")) {\n    System.out.println(\"Exit\");\n} else {\n    System.out.println(\"Keep playing\");\n}",
+    "question": "Recognize a quit command regardless of letter case. Repair the missing line in the displayed code.",
+    "options": [
+      "if (command.equalsIgnoreCase(\"quit\")) {",
+      "if (command.equalsIgnoreCase(\"Mia\")) {",
+      "if (command.equalsIgnoreCase(\"quitCount\")) {",
+      "if (command.equalsIgnoreCase(\"quit\")) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Combined branches",
+    "code": "int score = 2;\nboolean bonus = true;\nif (score >= 50 && bonus) {\n    System.out.println(\"Pass with bonus\");\n} else {\n    System.out.println(\"Standard result\");\n}",
+    "question": "Check the score and bonus flag together. Repair the missing line in the displayed code.",
+    "options": [
+      "if (score >= 50 && bonus) {",
+      "if (score < 50 && bonus) {",
+      "if (score >= 51 && bonus) {",
+      "if (score >= 49 && bonus) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Switch expression style",
+    "code": "int day = 3;\nswitch (day) {\n    case 1: System.out.println(\"Monday\"); break;\n    case 2: System.out.println(\"Tuesday\"); break;\n    default: System.out.println(\"Other day\");\n}",
+    "question": "Print a day name for supported day numbers. Repair the missing line in the displayed code.",
+    "options": [
+      "case 2: System.out.println(\"Tuesday\"); break;",
+      "case 3: System.out.println(\"Tuesday\"); break;",
+      "case 1: System.out.println(\"Tuesday\"); break;",
+      "case 4: System.out.println(\"Tuesday\"); break;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Guard clause",
+    "code": "int quantity = 4;\nif (quantity <= 0) {\n    System.out.println(\"Invalid quantity\");\n} else {\n    System.out.println(quantity * 10);\n}",
+    "question": "Reject a quantity that is not positive. Repair the missing line in the displayed code.",
+    "options": [
+      "if (quantity <= 0) {",
+      "if (quantity > 0) {",
+      "if (quantity <= 1) {",
+      "if (quantity <= 2) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Medium",
+    "subtopic": "Ternary selection",
+    "code": "int lives = 5;\nString status = lives > 0 ? \"Alive\" : \"Out\";\nSystem.out.println(status);",
+    "question": "Choose a status using a conditional expression. Repair the missing line in the displayed code.",
+    "options": [
+      "String status = lives > 0 ? \"Alive\" : \"Out\";",
+      "String status = lives < 0 ? \"Alive\" : \"Out\";",
+      "String status == lives > 0 ? \"Alive\" : \"Out\";",
+      "String status = lives > 1 ? \"Alive\" : \"Out\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Nested conditions",
+    "code": "int score = 6;\nboolean submitted = true;\nif (submitted) {\n    if (score >= 50) {\n        System.out.println(\"Pass\");\n    } else {\n        System.out.println(\"Retry\");\n    }\n} else {\n    System.out.println(\"Missing\");\n}",
+    "question": "Check submission first, then classify the score. Repair the missing line in the displayed code.",
+    "options": [
+      "if (score >= 50) {",
+      "if (score < 50) {",
+      "if (score >= 51) {",
+      "if (score >= 49) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Ordered grade conditions",
+    "code": "int marks = 7;\nif (marks >= 90) {\n    System.out.println(\"A+\");\n} else if (marks >= 80) {\n    System.out.println(\"A\");\n} else if (marks >= 50) {\n    System.out.println(\"Pass\");\n} else {\n    System.out.println(\"Fail\");\n}",
+    "question": "Use ordered thresholds to classify marks. Repair the missing line in the displayed code.",
+    "options": [
+      "} else if (marks >= 80) {",
+      "} else if (marks < 80) {",
+      "} else if (marks >= 81) {",
+      "} else if (marks >= 79) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Null-safe string check",
+    "code": "String input = \"Key\";\nif (input != null && input.equals(\"YES\")) {\n    System.out.println(\"Confirmed\");\n}",
+    "question": "Check for null before calling a String method. Repair the missing line in the displayed code.",
+    "options": [
+      "if (input != null && input.equals(\"YES\")) {",
+      "if (input == null && input.equals(\"YES\")) {",
+      "if (input != null && input.equals(\"Key\")) {",
+      "if (input != null && input.equals(\"YESCount\")) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Switch fall-through prevention",
+    "code": "int level = 9;\nswitch (level) {\n    case 1: System.out.println(\"Easy\"); break;\n    case 2: System.out.println(\"Medium\"); break;\n    case 3: System.out.println(\"Hard\"); break;\n    default: System.out.println(\"Unknown\");\n}",
+    "question": "Ensure each case ends before the next case. Repair the missing line in the displayed code.",
+    "options": [
+      "case 2: System.out.println(\"Medium\"); break;",
+      "case 3: System.out.println(\"Medium\"); break;",
+      "case 1: System.out.println(\"Medium\"); break;",
+      "case 4: System.out.println(\"Medium\"); break;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Multiple eligibility rules",
+    "code": "int age = 2;\nint score = 9;\nif (age >= 18 && score >= 60) {\n    System.out.println(\"Eligible\");\n} else {\n    System.out.println(\"Not eligible\");\n}",
+    "question": "Require both age and score to qualify. Repair the missing line in the displayed code.",
+    "options": [
+      "if (age >= 18 && score >= 60) {",
+      "if (age < 18 && score >= 60) {",
+      "if (age >= 19 && score >= 60) {",
+      "if (age >= 17 && score >= 60) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Boundary conditions",
+    "code": "int amount = 3;\nif (amount > 100) {\n    System.out.println(\"Large\");\n} else if (amount == 100) {\n    System.out.println(\"Exact\");\n} else {\n    System.out.println(\"Small\");\n}",
+    "question": "Distinguish values above, equal to, and below a boundary. Repair the missing line in the displayed code.",
+    "options": [
+      "} else if (amount == 100) {",
+      "} else if (amount != 100) {",
+      "} else if (amount == 101) {",
+      "} else if (amount == 99) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Boolean decision chain",
+    "code": "boolean hasPass = true;\nboolean banned = false;\nif (hasPass && !banned) {\n    System.out.println(\"Allowed\");\n} else {\n    System.out.println(\"Denied\");\n}",
+    "question": "Allow access only with a pass and without a ban. Repair the missing line in the displayed code.",
+    "options": [
+      "if (hasPass && !banned) {",
+      "if (hasPass && !Allowed) {",
+      "if (hasPass && !bannedCount) {",
+      "if (hasPass && !banned) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Menu validation",
+    "code": "int choice = 5;\nif (choice >= 1 && choice <= 3) {\n    System.out.println(\"Valid choice\");\n} else {\n    System.out.println(\"Invalid choice\");\n}",
+    "question": "Validate that a menu choice is within range. Repair the missing line in the displayed code.",
+    "options": [
+      "if (choice >= 1 && choice <= 3) {",
+      "if (choice < 1 && choice <= 3) {",
+      "if (choice >= 1 && choice > 3) {",
+      "if (choice >= 2 && choice <= 3) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Nested switch decision",
+    "code": "int mode = 6;\nint option = 3;\nif (mode == 1) {\n    switch (option) {\n        case 1: System.out.println(\"Load\"); break;\n        default: System.out.println(\"Unknown\");\n    }\n}",
+    "question": "Run the menu switch only in the selected mode. Repair the missing line in the displayed code.",
+    "options": [
+      "switch (option) {",
+      "switch (mode) {",
+      "switch (optionCount) {",
+      "switch (option) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 3,
+    "chapterName": "Conditional Canopy",
+    "difficulty": "Hard",
+    "subtopic": "Complex conditional expression",
+    "code": "int points = 7;\nboolean bonus = false;\nString rank = points >= 100 && bonus ? \"Gold\" : points >= 50 ? \"Silver\" : \"Bronze\";\nSystem.out.println(rank);",
+    "question": "Assign a rank based on points and bonus status. Repair the missing line in the displayed code.",
+    "options": [
+      "String rank = points >= 100 && bonus ? \"Gold\" : points >= 50 ? \"Silver\" : \"Bronze\";",
+      "String rank = points < 100 && bonus ? \"Gold\" : points >= 50 ? \"Silver\" : \"Bronze\";",
+      "String rank == points >= 100 && bonus ? \"Gold\" : points >= 50 ? \"Silver\" : \"Bronze\";",
+      "String rank = points >= 101 && bonus ? \"Gold\" : points >= 50 ? \"Silver\" : \"Bronze\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

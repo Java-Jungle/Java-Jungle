@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Stack push",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(2);\nSystem.out.println(stack.peek());",
+    "question": "Push a value onto a stack and inspect the top. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.push(2);",
+      "stack.push(3);",
+      "stack.push(1);",
+      "stack.push(4);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Stack pop",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(3);\nint value = stack.pop();\nSystem.out.println(value);",
+    "question": "Remove and return the top stack value. Repair the missing line in the displayed code.",
+    "options": [
+      "int value = stack.pop();",
+      "int value == stack.pop();",
+      "int value = stack.java();",
+      "int value = stack.popCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Stack peek",
+    "code": "java.util.Stack<String> stack = new java.util.Stack<>();\nstack.push(\"Key\");\nSystem.out.println(stack.peek());",
+    "question": "Read the top item without removing it. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(stack.peek());",
+      "System.out.println(stack.java());",
+      "System.out.println(stack.peekCount());",
+      "System.out.println(stack.peek()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Stack empty check",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nSystem.out.println(stack.empty());",
+    "question": "Check whether the stack contains no items. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(stack.empty());",
+      "System.out.println(stack.java());",
+      "System.out.println(stack.emptyCount());",
+      "System.out.println(stack.empty()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Last in first out",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(1);\nstack.push(2);\nSystem.out.println(stack.pop());",
+    "question": "Demonstrate that the most recently pushed item is removed first. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.push(2);",
+      "stack.push(3);",
+      "stack.push(1);",
+      "stack.push(4);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Stack size",
+    "code": "java.util.Stack<String> stack = new java.util.Stack<>();\nstack.push(\"A\");\nstack.push(\"B\");\nSystem.out.println(stack.size());",
+    "question": "Print the number of stack elements. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(stack.size());",
+      "System.out.println(stack.java());",
+      "System.out.println(stack.sizeCount());",
+      "System.out.println(stack.size()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Clear a stack",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(3);\nstack.clear();\nSystem.out.println(stack.empty());",
+    "question": "Remove all stack elements. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.clear();",
+      "stack.java();",
+      "stack.clearCount();",
+      "stack.clear() + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Search stack",
+    "code": "java.util.Stack<String> stack = new java.util.Stack<>();\nstack.push(\"Map\");\nstack.push(\"Key\");\nSystem.out.println(stack.search(\"Key\"));",
+    "question": "Search for an item measured from the top of the stack. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(stack.search(\"Key\"));",
+      "System.out.println(stack.search(\"java\"));",
+      "System.out.println(stack.search(\"KeyCount\"));",
+      "System.out.println(stack.search(\"Key\")) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Stack of characters",
+    "code": "java.util.Stack<Character> stack = new java.util.Stack<>();\nstack.push('J');\nstack.push('V');\nSystem.out.println(stack.pop());",
+    "question": "Use a stack to store characters. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.push('V');",
+      "stack.push('java');",
+      "stack.push('VCount');",
+      "stack.push('V') + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Easy",
+    "subtopic": "Check before pop",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nif (!stack.empty()) {\n    System.out.println(stack.pop());\n}",
+    "question": "Only pop when the stack is not empty. Repair the missing line in the displayed code.",
+    "options": [
+      "if (!stack.empty()) {",
+      "if (!stack.java()) {",
+      "if (!stack.emptyCount()) {",
+      "if (!stack.empty()) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Reverse text with a stack",
+    "code": "String text = \"Quest\";\njava.util.Stack<Character> stack = new java.util.Stack<>();\nfor (char ch : text.toCharArray()) stack.push(ch);\nwhile (!stack.empty()) System.out.print(stack.pop());",
+    "question": "Reverse a string by pushing and popping characters. Repair the missing line in the displayed code.",
+    "options": [
+      "while (!stack.empty()) System.out.print(stack.pop());",
+      "while (!stack.empty()) System.out.print(stack.text());",
+      "while (!stack.empty()) System.out.print(stack.popCount());",
+      "while (!stack.empty()) System.out.print(stack.pop()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Balanced bracket start",
+    "code": "java.util.Stack<Character> stack = new java.util.Stack<>();\nstack.push('(');\nchar open = stack.pop();\nSystem.out.println(open);",
+    "question": "Store an opening bracket and retrieve it. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.push('(');",
+      "stack.java('(');",
+      "stack.pushCount('(');",
+      "stack.push('(') + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Stack processing",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(4);\nstack.push(8);\nint top = stack.pop();\nstack.push(top + 1);\nSystem.out.println(stack.peek());",
+    "question": "Pop a value, update it, and push it back. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.push(top + 1);",
+      "stack.push(top - 1);",
+      "stack.push(top + 2);",
+      "stack.push(top + 0);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Empty stack condition",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(7);\nwhile (!stack.empty()) System.out.println(stack.pop());",
+    "question": "Process every element until the stack is empty. Repair the missing line in the displayed code.",
+    "options": [
+      "while (!stack.empty()) System.out.println(stack.pop());",
+      "while (!stack.empty()) System.out.println(stack.java());",
+      "while (!stack.empty()) System.out.println(stack.popCount());",
+      "while (!stack.empty()) System.out.println(stack.pop()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Stack search result",
+    "code": "java.util.Stack<String> stack = new java.util.Stack<>();\nstack.push(\"A\");\nstack.push(\"B\");\nint position = stack.search(\"A\");\nSystem.out.println(position);",
+    "question": "Find the position of an item from the top of the stack. Repair the missing line in the displayed code.",
+    "options": [
+      "int position = stack.search(\"A\");",
+      "int position == stack.search(\"A\");",
+      "int position = stack.search(\"java\");",
+      "int position = stack.search(\"ACount\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Copy stack items",
+    "code": "java.util.Stack<Integer> source = new java.util.Stack<>();\nsource.push(1);\nsource.push(2);\njava.util.Stack<Integer> copy = (java.util.Stack<Integer>) source.clone();\nSystem.out.println(copy.peek());",
+    "question": "Create a shallow copy of a stack. Repair the missing line in the displayed code.",
+    "options": [
+      "java.util.Stack<Integer> copy = (java.util.Stack<Integer>) source.clone();",
+      "java.util.Stack<Integer> copy == (java.util.Stack<Integer>) source.clone();",
+      "java.util.Stack<Integer> copy = (java.util.Stack<Integer>) source.push();",
+      "java.util.Stack<Integer> copy = (java.util.Stack<Integer>) source.cloneCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Stack iteration",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(2);\nstack.push(4);\nfor (int value : stack) System.out.println(value);",
+    "question": "Iterate through stack elements. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : stack) System.out.println(value);",
+      "for (int java : stack) System.out.println(value);",
+      "for (int valueCount : stack) System.out.println(value);",
+      "for (int value : stack) System.out.println(value) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Remove a stack item",
+    "code": "java.util.Stack<String> stack = new java.util.Stack<>();\nstack.push(\"A\");\nstack.push(\"B\");\nstack.remove(\"A\");\nSystem.out.println(stack.size());",
+    "question": "Remove a specific matching element from the stack. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.remove(\"A\");",
+      "stack.remove(\"java\");",
+      "stack.remove(\"ACount\");",
+      "stack.remove(\"A\") + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Peek before pop",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(4);\nif (!stack.empty()) {\n    int top = stack.peek();\n    System.out.println(top);\n}",
+    "question": "Read the top item safely without removing it. Repair the missing line in the displayed code.",
+    "options": [
+      "int top = stack.peek();",
+      "int top == stack.peek();",
+      "int top = stack.java();",
+      "int top = stack.peekCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Medium",
+    "subtopic": "Stack sum",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(2);\nstack.push(3);\nint total = 0;\nwhile (!stack.empty()) total += stack.pop();\nSystem.out.println(total);",
+    "question": "Pop and add all values until the stack is empty. Repair the missing line in the displayed code.",
+    "options": [
+      "while (!stack.empty()) total += stack.pop();",
+      "while (!stack.empty()) total += stack.java();",
+      "while (!stack.empty()) total += stack.popCount();",
+      "while (!stack.empty()) total += stack.pop() + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Balanced parentheses",
+    "code": "String text = \"({[]})\";\njava.util.Stack<Character> stack = new java.util.Stack<>();\nboolean balanced = true;\nfor (char ch : text.toCharArray()) {\n    if (ch == '(' || ch == '[' || ch == '{') stack.push(ch);\n    else if (ch == ')' || ch == ']' || ch == '}') {\n        if (stack.empty()) { balanced = false; break; }\n        char open = stack.pop();\n        if ((ch == ')' && open != '(') || (ch == ']' && open != '[') || (ch == '}' && open != '{')) balanced = false;\n    }\n}\nbalanced = balanced && stack.empty();\nSystem.out.println(balanced);",
+    "question": "Validate bracket pairing using a stack. Repair the missing line in the displayed code.",
+    "options": [
+      "char open = stack.pop();",
+      "char open == stack.pop();",
+      "char open = stack.text();",
+      "char open = stack.popCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Stack-based reversal",
+    "code": "String word = \"Java\";\njava.util.Stack<Character> stack = new java.util.Stack<>();\nfor (int i = 0; i < word.length(); i++) stack.push(word.charAt(i));\nStringBuilder reversed = new StringBuilder();\nwhile (!stack.empty()) reversed.append(stack.pop());\nSystem.out.println(reversed);",
+    "question": "Build the reversed word by popping each character. Repair the missing line in the displayed code.",
+    "options": [
+      "while (!stack.empty()) reversed.append(stack.pop());",
+      "while (!stack.empty()) reversed.append(stack.word());",
+      "while (!stack.empty()) reversed.append(stack.popCount());",
+      "while (!stack.empty()) reversed.append(stack.pop()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Safe top retrieval",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(8);\nInteger top = stack.empty() ? null : stack.peek();\nSystem.out.println(top);",
+    "question": "Avoid calling peek on an empty stack. Repair the missing line in the displayed code.",
+    "options": [
+      "Integer top = stack.empty() ? null : stack.peek();",
+      "Integer top == stack.empty() ? null : stack.peek();",
+      "Integer top = stack.empty() ? null : stack.java();",
+      "Integer top = stack.empty() ? null : stack.peekCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Postfix evaluation",
+    "code": "String[] tokens = {\"3\", \"4\", \"+\"};\njava.util.Stack<Integer> stack = new java.util.Stack<>();\nfor (String token : tokens) {\n    if (token.matches(\"\\\\d+\")) stack.push(Integer.parseInt(token));\n    else { int b = stack.pop(); int a = stack.pop(); stack.push(a + b); }\n}\nSystem.out.println(stack.pop());",
+    "question": "Evaluate a simple postfix addition expression. Repair the missing line in the displayed code.",
+    "options": [
+      "else { int b = stack.pop(); int a = stack.pop(); stack.push(a + b); }",
+      "else { int b = stack.pop(); int a = stack.pop(); stack.push(a - b); }",
+      "else { int b == stack.pop(); int a = stack.pop(); stack.push(a + b); }",
+      "else { int tokens = stack.pop(); int a = stack.pop(); stack.push(a + b); }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Stack minimum tracking",
+    "code": "java.util.Stack<Integer> values = new java.util.Stack<>();\nvalues.push(7);\nvalues.push(3);\nvalues.push(5);\nint min = Integer.MAX_VALUE;\nfor (int value : values) if (value < min) min = value;\nSystem.out.println(min);",
+    "question": "Find the minimum value stored in the stack. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : values) if (value < min) min = value;",
+      "for (int value : values) if (value > min) min = value;",
+      "for (int value : values) if (value < min) min == value;",
+      "for (int java : values) if (value < min) min = value;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Stack order",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nfor (int i = 1; i <= 3; i++) stack.push(i);\nwhile (!stack.empty()) System.out.print(stack.pop());",
+    "question": "Observe the LIFO order after pushing values in sequence. Repair the missing line in the displayed code.",
+    "options": [
+      "while (!stack.empty()) System.out.print(stack.pop());",
+      "while (!stack.empty()) System.out.print(stack.java());",
+      "while (!stack.empty()) System.out.print(stack.popCount());",
+      "while (!stack.empty()) System.out.print(stack.pop()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Undo operation",
+    "code": "java.util.Stack<String> history = new java.util.Stack<>();\nhistory.push(\"Draft\");\nhistory.push(\"Edited\");\nString undone = history.pop();\nSystem.out.println(undone + \":\" + history.peek());",
+    "question": "Undo the most recent saved state. Repair the missing line in the displayed code.",
+    "options": [
+      "String undone = history.pop();",
+      "String undone == history.pop();",
+      "String undone = history.java();",
+      "String undone = history.popCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Stack transfer",
+    "code": "java.util.Stack<Integer> source = new java.util.Stack<>();\njava.util.Stack<Integer> target = new java.util.Stack<>();\nsource.push(1); source.push(2); source.push(3);\nwhile (!source.empty()) target.push(source.pop());\nSystem.out.println(target.peek());",
+    "question": "Transfer elements from one stack to another. Repair the missing line in the displayed code.",
+    "options": [
+      "while (!source.empty()) target.push(source.pop());",
+      "while (!source.empty()) target.push(source.java());",
+      "while (!source.empty()) target.push(source.popCount());",
+      "while (!source.empty()) target.push(source.pop()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Postfix subtraction",
+    "code": "String[] tokens = {\"9\", \"2\", \"-\"};\njava.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(Integer.parseInt(tokens[0]));\nstack.push(Integer.parseInt(tokens[1]));\nint right = stack.pop();\nint left = stack.pop();\nstack.push(left - right);\nSystem.out.println(stack.pop());",
+    "question": "Preserve operand order when evaluating subtraction in postfix form. Repair the missing line in the displayed code.",
+    "options": [
+      "stack.push(left - right);",
+      "stack.push(left + right);",
+      "stack.push(left - tokens);",
+      "stack.push(left - rightCount);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 9,
+    "chapterName": "Stack Safari",
+    "difficulty": "Hard",
+    "subtopic": "Empty check after processing",
+    "code": "java.util.Stack<Integer> stack = new java.util.Stack<>();\nstack.push(5);\nstack.pop();\nboolean emptyAfter = stack.empty();\nSystem.out.println(emptyAfter);",
+    "question": "Check the stack state after removing its only item. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean emptyAfter = stack.empty();",
+      "boolean emptyAfter == stack.empty();",
+      "boolean emptyAfter = stack.java();",
+      "boolean emptyAfter = stack.emptyCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

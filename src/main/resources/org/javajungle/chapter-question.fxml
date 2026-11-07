@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.javajungle.BinaryRain?>
+<?import org.javajungle.VineFrame?>
+
+<BorderPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.javajungle.ChapterQuestionController" styleClass="app-root">
+    <center>
+        <StackPane styleClass="screen-frame">
+            <BinaryRain mouseTransparent="true" />
+            <VineFrame mouseTransparent="true" prefWidth="1360" prefHeight="760" />
+            <VBox styleClass="terminal chapter-question-terminal" spacing="14">
+                <StackPane.margin><Insets top="34" right="34" bottom="34" left="34" /></StackPane.margin>
+                <HBox styleClass="brand-bar" alignment="CENTER_LEFT" spacing="12">
+                    <Button text="← CHAPTERS" onAction="#handleBackToChapters" styleClass="button-quiet" />
+                    <Label text="JAVA JUNGLE" styleClass="game-title" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Label fx:id="chapterHeading" styleClass="mode-label" />
+                    <Label fx:id="difficultyBadge" styleClass="difficulty-badge" />
+                    <Label fx:id="heartsLabel" text="♥  ♥  ♥" styleClass="hearts" />
+                    <Label fx:id="xpLabel" text="0 XP" styleClass="accent-green" />
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="12">
+                    <VBox spacing="4">
+                        <Label fx:id="subtopicLabel" styleClass="chapter-number" />
+                        <Label fx:id="questionPrompt" styleClass="screen-title" wrapText="true" />
+                    </VBox>
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Label fx:id="questionCounter" styleClass="muted" />
+                </HBox>
+                <ProgressBar fx:id="questionProgress" progress="0.1" maxWidth="Infinity" styleClass="chapter-question-progress" />
+                <HBox spacing="14" VBox.vgrow="ALWAYS" styleClass="chapter-question-workarea">
+                    <VBox styleClass="code-panel chapter-code-panel" spacing="10" HBox.hgrow="ALWAYS">
+                        <HBox styleClass="panel-bar" alignment="CENTER_LEFT" spacing="8">
+                            <Label text="●" styleClass="dot-red" />
+                            <Label text="●" styleClass="dot-yellow" />
+                            <Label text="●" styleClass="dot-green" />
+                            <Label text="CODE FRAGMENT" styleClass="file-name" />
+                        </HBox>
+                        <TextArea fx:id="codePreview" styleClass="code-area" editable="false" wrapText="false" VBox.vgrow="ALWAYS" />
+                    </VBox>
+                    <VBox styleClass="feedback-panel chapter-answer-panel" spacing="10" prefWidth="430" HBox.hgrow="ALWAYS">
+                        <Label text="SELECT THE REPAIR LINE" styleClass="diagnostic-heading" />
+                        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" styleClass="case-scroll" VBox.vgrow="ALWAYS">
+                            <content><VBox fx:id="answerOptions" spacing="8" /></content>
+                        </ScrollPane>
+                        <Label fx:id="resultHeading" text="Choose the line that repairs the snippet." styleClass="feedback-heading" wrapText="true" />
+                        <Label fx:id="explanationLabel" styleClass="feedback-copy" wrapText="true" />
+                    </VBox>
+                </HBox>
+                <HBox styleClass="footer" alignment="CENTER_LEFT" spacing="10">
+                    <Button text="⌂  MODE SELECTION" onAction="#handleBackToModes" styleClass="button-quiet" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Button fx:id="nextButton" text="NEXT QUESTION  →" onAction="#handleNext" styleClass="button-submit" disable="true" />
+                </HBox>
+            </VBox>
+        </StackPane>
+    </center>
+</BorderPane>

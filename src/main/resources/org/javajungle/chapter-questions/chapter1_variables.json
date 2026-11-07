@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Declaration and initialization",
+    "code": "int score = 2;\nSystem.out.println(score);",
+    "question": "Print the player's score. Repair the missing line in the displayed code.",
+    "options": [
+      "int score = 2;",
+      "int score == 2;",
+      "int score = 3;",
+      "int score = 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Primitive data types",
+    "code": "double price = 11.5;\nint quantity = 5;\ndouble total = price * quantity;\nSystem.out.println(total);",
+    "question": "Calculate the total price. Repair the missing line in the displayed code.",
+    "options": [
+      "double price = 11.5;",
+      "double price == 11.5;",
+      "double price = 12.5;",
+      "double price = 10.5;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Updating variables",
+    "code": "int lives = 4;\nlives = lives - 1;\nSystem.out.println(lives);",
+    "question": "Reduce the player's lives by one. Repair the missing line in the displayed code.",
+    "options": [
+      "lives = lives - 1;",
+      "lives = lives + 1;",
+      "lives == lives - 1;",
+      "lives = lives - 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Constants",
+    "code": "final int MAX_LEVEL = 9;\nSystem.out.println(MAX_LEVEL);",
+    "question": "Store a level limit that cannot be reassigned. Repair the missing line in the displayed code.",
+    "options": [
+      "final int MAX_LEVEL = 9;",
+      "final int MAX_LEVEL == 9;",
+      "final int MAX_LEVEL = 10;",
+      "final int MAX_LEVEL = 8;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Character variables",
+    "code": "char grade = '4';\nSystem.out.println(grade);",
+    "question": "Store and print a single grade character. Repair the missing line in the displayed code.",
+    "options": [
+      "char grade = '4';",
+      "char grade == '4';",
+      "char grade = '5';",
+      "char grade = '3';"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Boolean variables",
+    "code": "boolean hasKey = false;\nSystem.out.println(hasKey);",
+    "question": "Store whether the player has a key. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean hasKey = false;",
+      "boolean hasKey == false;",
+      "boolean hasKey = true;",
+      "boolean hasKeyValue = false;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "String variables",
+    "code": "String player = \"River\";\nSystem.out.println(player);",
+    "question": "Store and print the player's name. Repair the missing line in the displayed code.",
+    "options": [
+      "String player = \"River\";",
+      "String player == \"River\";",
+      "String player = \"RiverValue\";",
+      "String player = \"RiverCount\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Type conversion",
+    "code": "int whole = 9;\ndouble exact = whole;\nSystem.out.println(exact);",
+    "question": "Convert an integer value to a double. Repair the missing line in the displayed code.",
+    "options": [
+      "double exact = whole;",
+      "double exact == whole;",
+      "double exact = wholeValue;",
+      "double exact = wholeCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Arithmetic assignment",
+    "code": "int coins = 2;\ncoins += 5;\nSystem.out.println(coins);",
+    "question": "Add collected coins to the current total. Repair the missing line in the displayed code.",
+    "options": [
+      "coins += 5;",
+      "coins += 6;",
+      "coins += 4;",
+      "coins += 7;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Easy",
+    "subtopic": "Variable scope basics",
+    "code": "int points = 3;\n{\n    int bonus = 7;\n    points += bonus;\n}\nSystem.out.println(points);",
+    "question": "Add a local bonus to the points. Repair the missing line in the displayed code.",
+    "options": [
+      "points += bonus;",
+      "points += bonusValue;",
+      "points += bonusCount;",
+      "points += bonus + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Swapping values",
+    "code": "int first = 4;\nint second = 9;\nint temp = first;\nfirst = second;\nsecond = temp;\nSystem.out.println(first + \",\" + second);",
+    "question": "Swap two stored values using a temporary variable. Repair the missing line in the displayed code.",
+    "options": [
+      "int temp = first;",
+      "int temp == first;",
+      "int temp = second;",
+      "int temp = firstCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Casting numeric values",
+    "code": "double average = 21.8;\nint roundedDown = (int) average;\nSystem.out.println(roundedDown);",
+    "question": "Convert a decimal value to an integer by casting. Repair the missing line in the displayed code.",
+    "options": [
+      "int roundedDown = (int) average;",
+      "int roundedDown == (int) average;",
+      "int roundedDown = (int) averageValue;",
+      "int roundedDown = (int) averageCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Compound assignment",
+    "code": "int energy = 6;\nenergy *= 6;\nenergy -= 2;\nSystem.out.println(energy);",
+    "question": "Scale the energy and then subtract two. Repair the missing line in the displayed code.",
+    "options": [
+      "energy *= 6;",
+      "energy *= 7;",
+      "energy *= 5;",
+      "energy *= 8;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Integer division",
+    "code": "int total = 7;\nint people = 8;\nint each = total / people;\nSystem.out.println(each);",
+    "question": "Calculate the whole-number share for each person. Repair the missing line in the displayed code.",
+    "options": [
+      "int each = total / people;",
+      "int each = total * people;",
+      "int each == total / people;",
+      "int each = total / peopleValue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Floating-point division",
+    "code": "double total = 8;\nint people = 3;\ndouble each = total / people;\nSystem.out.println(each);",
+    "question": "Calculate a share that can include a decimal. Repair the missing line in the displayed code.",
+    "options": [
+      "double each = total / people;",
+      "double each = total * people;",
+      "double each == total / people;",
+      "double each = total / peopleValue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Variable reassignment",
+    "code": "int level = 9;\nlevel = level + 5;\nlevel++;\nSystem.out.println(level);",
+    "question": "Increase the level and then increment it once. Repair the missing line in the displayed code.",
+    "options": [
+      "level = level + 5;",
+      "level = level - 5;",
+      "level == level + 5;",
+      "level = level + 6;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Final variables",
+    "code": "final double TAX_RATE = 0.16;\ndouble cost = 2;\ndouble tax = cost * TAX_RATE;\nSystem.out.println(tax);",
+    "question": "Calculate tax using a constant rate. Repair the missing line in the displayed code.",
+    "options": [
+      "double tax = cost * TAX_RATE;",
+      "double tax = cost / TAX_RATE;",
+      "double tax == cost * TAX_RATE;",
+      "double tax = cost * TAX_RATEValue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Character arithmetic",
+    "code": "char letter = '7';\nletter++;\nSystem.out.println(letter);",
+    "question": "Move to the next character in the character sequence. Repair the missing line in the displayed code.",
+    "options": [
+      "letter++;",
+      "letter--;",
+      "letterValue++;",
+      "letterCount++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Mixed types",
+    "code": "int count = 4;\ndouble weight = 11.5;\ndouble result = count + weight;\nSystem.out.println(result);",
+    "question": "Store the result of adding an integer and a decimal. Repair the missing line in the displayed code.",
+    "options": [
+      "double result = count + weight;",
+      "double result = count - weight;",
+      "double result == count + weight;",
+      "double result = count + weightValue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Medium",
+    "subtopic": "Multiple assignments",
+    "code": "int red = 5;\nint blue = 6;\nred += blue;\nblue = red - blue;\nSystem.out.println(red + \":\" + blue);",
+    "question": "Update two variables using arithmetic assignments. Repair the missing line in the displayed code.",
+    "options": [
+      "red += blue;",
+      "red += blueValue;",
+      "red += blueCount;",
+      "red += blue + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Safe numeric conversion",
+    "code": "double balance = 13.75;\nif (balance >= 0) {\n    int wholeUnits = (int) balance;\n    System.out.println(wholeUnits);\n}",
+    "question": "Convert a non-negative balance to whole units inside a condition. Repair the missing line in the displayed code.",
+    "options": [
+      "int wholeUnits = (int) balance;",
+      "int wholeUnits == (int) balance;",
+      "int wholeUnits = (int) balanceValue;",
+      "int wholeUnits = (int) balanceCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Preserving a value",
+    "code": "int original = 7;\nint doubled = original * 2;\nint difference = doubled - original;\nSystem.out.println(difference);",
+    "question": "Use a derived variable without changing the original. Repair the missing line in the displayed code.",
+    "options": [
+      "int difference = doubled - original;",
+      "int difference = doubled + original;",
+      "int difference == doubled - original;",
+      "int difference = doubled - originalValue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Reassigning a reference variable",
+    "code": "String title = \"Jungle\";\ntitle = title + \" Jungle\";\nSystem.out.println(title);",
+    "question": "Append text to a String and store the new value. Repair the missing line in the displayed code.",
+    "options": [
+      "title = title + \" Jungle\";",
+      "title = title - \" Jungle\";",
+      "title == title + \" Jungle\";",
+      "title = title + \" JungleValue\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Calculating a percentage",
+    "code": "double marks = 9;\ndouble maximum = 7;\ndouble percent = marks / maximum * 100.0;\nSystem.out.println(percent);",
+    "question": "Calculate a percentage using floating-point arithmetic. Repair the missing line in the displayed code.",
+    "options": [
+      "double percent = marks / maximum * 100.0;",
+      "double percent = marks / maximum / 100.0;",
+      "double percent = marks * maximum * 100.0;",
+      "double percent == marks / maximum * 100.0;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Pre-increment and post-increment",
+    "code": "int steps = 2;\nint before = steps++;\nint after = ++steps;\nSystem.out.println(before + \":\" + after);",
+    "question": "Capture values before and after increments. Repair the missing line in the displayed code.",
+    "options": [
+      "int before = steps++;",
+      "int before = steps--;",
+      "int before == steps++;",
+      "int before = after++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Boolean state variable",
+    "code": "boolean unlocked = false;\nint keys = 3;\nunlocked = keys >= 4;\nSystem.out.println(unlocked);",
+    "question": "Set an unlock flag based on the number of keys. Repair the missing line in the displayed code.",
+    "options": [
+      "unlocked = keys >= 4;",
+      "unlocked = keys < 4;",
+      "unlocked == keys >= 4;",
+      "unlocked = keys >= 5;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Constant expression",
+    "code": "final int BASE = 4;\nfinal int BONUS = 6;\nint score = BASE + BONUS * 2;\nSystem.out.println(score);",
+    "question": "Calculate a score while respecting operator precedence. Repair the missing line in the displayed code.",
+    "options": [
+      "int score = BASE + BONUS * 2;",
+      "int score = BASE - BONUS * 2;",
+      "int score = BASE + BONUS / 2;",
+      "int score == BASE + BONUS * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Narrowing conversion",
+    "code": "double temperature = 20.9;\nint wholeTemperature = (int) temperature;\nSystem.out.println(wholeTemperature);",
+    "question": "Explicitly narrow a decimal value to an integer. Repair the missing line in the displayed code.",
+    "options": [
+      "int wholeTemperature = (int) temperature;",
+      "int wholeTemperature == (int) temperature;",
+      "int wholeTemperature = (int) temperatureValue;",
+      "int wholeTemperature = (int) temperatureCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Accumulating totals",
+    "code": "int total = 0;\ntotal += 6;\ntotal += 3;\ntotal += 4;\nSystem.out.println(total);",
+    "question": "Accumulate several values into one total. Repair the missing line in the displayed code.",
+    "options": [
+      "total += 3;",
+      "total += 4;",
+      "total += 2;",
+      "total += 5;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 1,
+    "chapterName": "The Variable Vine",
+    "difficulty": "Hard",
+    "subtopic": "Variable update order",
+    "code": "int value = 7;\nvalue *= 2;\nvalue += 5;\nvalue /= 2;\nSystem.out.println(value);",
+    "question": "Apply a sequence of updates to a variable. Repair the missing line in the displayed code.",
+    "options": [
+      "value *= 2;",
+      "value *= 3;",
+      "value *= 1;",
+      "value *= 4;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

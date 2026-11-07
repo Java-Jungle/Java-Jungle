@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "for loop counting",
+    "code": "for (int i = 0; i < 2; i++) {\n    System.out.println(i);\n}",
+    "question": "Print numbers from zero up to the limit. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < 2; i++) {",
+      "for (int i = 0; i < 2; i--) {",
+      "for (int i = 0; i > 2; i++) {",
+      "for (int i == 0; i < 2; i++) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "while loop",
+    "code": "int count = 0;\nwhile (count < 3) {\n    System.out.println(count);\n    count++;\n}",
+    "question": "Repeat until the counter reaches the limit. Repair the missing line in the displayed code.",
+    "options": [
+      "count++;",
+      "count--;",
+      "countValue++;",
+      "countCount++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "do-while loop",
+    "code": "int count = 0;\ndo {\n    System.out.println(count);\n    count++;\n} while (count < 4);",
+    "question": "Run the loop body at least once. Repair the missing line in the displayed code.",
+    "options": [
+      "} while (count < 4);",
+      "} while (count > 4);",
+      "} while (count < 5);",
+      "} while (count < 3);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "Accumulating a total",
+    "code": "int total = 0;\nfor (int i = 1; i <= 5; i++) {\n    total += i;\n}\nSystem.out.println(total);",
+    "question": "Add all integers from one through the limit. Repair the missing line in the displayed code.",
+    "options": [
+      "total += i;",
+      "total += iValue;",
+      "total += iCount;",
+      "total += i + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "Loop step",
+    "code": "for (int i = 0; i < 6; i += 2) {\n    System.out.println(i);\n}",
+    "question": "Print even index values by increasing by two. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < 6; i += 2) {",
+      "for (int i = 0; i > 6; i += 2) {",
+      "for (int i == 0; i < 6; i += 2) {",
+      "for (int i = 1; i < 6; i += 2) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "Countdown",
+    "code": "for (int i = 7; i > 0; i--) {\n    System.out.println(i);\n}",
+    "question": "Count down to one. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 7; i > 0; i--) {",
+      "for (int i = 7; i > 0; i++) {",
+      "for (int i = 7; i < 0; i--) {",
+      "for (int i == 7; i > 0; i--) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "Loop condition",
+    "code": "int energy = 8;\nwhile (energy > 0) {\n    energy--;\n}\nSystem.out.println(energy);",
+    "question": "Reduce energy until it reaches zero. Repair the missing line in the displayed code.",
+    "options": [
+      "while (energy > 0) {",
+      "while (energy < 0) {",
+      "while (energy > 1) {",
+      "while (energy > 2) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "Nested loop",
+    "code": "for (int row = 0; row < 2; row++) {\n    for (int col = 0; col < 2; col++) {\n        System.out.println(row + \",\" + col);\n    }\n}",
+    "question": "Print each row and column pair. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int col = 0; col < 2; col++) {",
+      "for (int col = 0; col < 2; col--) {",
+      "for (int col = 0; col > 2; col++) {",
+      "for (int col == 0; col < 2; col++) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "break statement",
+    "code": "for (int i = 0; i < 10; i++) {\n    if (i == 2) {\n        break;\n    }\n    System.out.println(i);\n}",
+    "question": "Stop the loop when the target value is reached. Repair the missing line in the displayed code.",
+    "options": [
+      "break;",
+      "break + 1;",
+      "break - 1;",
+      "break * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Easy",
+    "subtopic": "continue statement",
+    "code": "for (int i = 0; i < 3; i++) {\n    if (i == 2) continue;\n    System.out.println(i);\n}",
+    "question": "Skip the iteration where the counter equals two. Repair the missing line in the displayed code.",
+    "options": [
+      "if (i == 2) continue;",
+      "if (i != 2) continue;",
+      "if (i == 3) continue;",
+      "if (i == 1) continue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Loop accumulation",
+    "code": "int total = 0;\nfor (int i = 1; i <= 4; i++) {\n    total += i * 2;\n}\nSystem.out.println(total);",
+    "question": "Sum twice each number in the range. Repair the missing line in the displayed code.",
+    "options": [
+      "total += i * 2;",
+      "total += i / 2;",
+      "total += i * 3;",
+      "total += i * 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Sentinel while loop",
+    "code": "int value = 5;\nwhile (value != 0) {\n    System.out.println(value);\n    value--;\n}",
+    "question": "Repeat while the value has not reached zero. Repair the missing line in the displayed code.",
+    "options": [
+      "while (value != 0) {",
+      "while (value == 0) {",
+      "while (value != 1) {",
+      "while (value != 2) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Nested loop pattern",
+    "code": "for (int row = 1; row <= 6; row++) {\n    for (int col = 1; col <= row; col++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}",
+    "question": "Print a growing triangle of stars. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int col = 1; col <= row; col++) {",
+      "for (int col = 1; col > row; col++) {",
+      "for (int col = 1; col <= row; col--) {",
+      "for (int col == 1; col <= row; col++) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Loop with condition",
+    "code": "for (int i = 1; i <= 7; i++) {\n    if (i % 2 == 0) {\n        System.out.println(i);\n    }\n}",
+    "question": "Print only even numbers in the range. Repair the missing line in the displayed code.",
+    "options": [
+      "if (i % 2 == 0) {",
+      "if (i % 2 != 0) {",
+      "if (i % 3 == 0) {",
+      "if (i % 1 == 0) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Find first match",
+    "code": "int target = 8;\nfor (int i = 1; i <= 10; i++) {\n    if (i == target) {\n        System.out.println(\"Found\");\n        break;\n    }\n}",
+    "question": "Stop searching after finding the target. Repair the missing line in the displayed code.",
+    "options": [
+      "if (i == target) {",
+      "if (i != target) {",
+      "if (i == Found) {",
+      "if (i == targetCount) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Loop counter update",
+    "code": "int count = 0;\nint value = 9;\nwhile (value > 1) {\n    value /= 2;\n    count++;\n}\nSystem.out.println(count);",
+    "question": "Count how many divisions by two are needed. Repair the missing line in the displayed code.",
+    "options": [
+      "value /= 2;",
+      "value /= 3;",
+      "value /= 1;",
+      "value /= 4;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "do-while validation",
+    "code": "int attempts = 0;\ndo {\n    attempts++;\n} while (attempts < 2);\nSystem.out.println(attempts);",
+    "question": "Execute the body repeatedly until attempts reaches the limit. Repair the missing line in the displayed code.",
+    "options": [
+      "} while (attempts < 2);",
+      "} while (attempts > 2);",
+      "} while (attempts < 3);",
+      "} while (attempts < 1);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Loop over a range",
+    "code": "int total = 0;\nfor (int i = 3; i <= 9; i++) {\n    total += i;\n}\nSystem.out.println(total);",
+    "question": "Sum an inclusive range of integers. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 3; i <= 9; i++) {",
+      "for (int i = 3; i > 9; i++) {",
+      "for (int i = 3; i <= 9; i--) {",
+      "for (int i == 3; i <= 9; i++) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "continue in a loop",
+    "code": "for (int i = 1; i <= 4; i++) {\n    if (i % 3 == 0) continue;\n    System.out.println(i);\n}",
+    "question": "Skip multiples of three. Repair the missing line in the displayed code.",
+    "options": [
+      "if (i % 3 == 0) continue;",
+      "if (i % 3 != 0) continue;",
+      "if (i % 4 == 0) continue;",
+      "if (i % 2 == 0) continue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Medium",
+    "subtopic": "Nested loop counter",
+    "code": "int pairs = 0;\nfor (int a = 0; a < 3; a++) {\n    for (int b = 0; b < 4; b++) {\n        pairs++;\n    }\n}\nSystem.out.println(pairs);",
+    "question": "Count all pairs generated by two loops. Repair the missing line in the displayed code.",
+    "options": [
+      "pairs++;",
+      "pairs--;",
+      "a++;",
+      "pairsCount++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Search with early exit",
+    "code": "int target = 6;\nint foundAt = -1;\nfor (int i = 0; i < 10; i++) {\n    if (i * 2 == target) {\n        foundAt = i;\n        break;\n    }\n}\nSystem.out.println(foundAt);",
+    "question": "Store the first index whose doubled value matches the target. Repair the missing line in the displayed code.",
+    "options": [
+      "foundAt = i;",
+      "foundAt == i;",
+      "foundAt = target;",
+      "foundAt = iCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Nested accumulation",
+    "code": "int total = 0;\nfor (int row = 1; row <= 3; row++) {\n    for (int col = 1; col <= row; col++) {\n        total += col;\n    }\n}\nSystem.out.println(total);",
+    "question": "Accumulate column values in a triangular nested loop. Repair the missing line in the displayed code.",
+    "options": [
+      "total += col;",
+      "total += row;",
+      "total += colCount;",
+      "total += col + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Loop invariant update",
+    "code": "int value = 8;\nint steps = 0;\nwhile (value > 1) {\n    value = value % 2 == 0 ? value / 2 : value + 1;\n    steps++;\n}\nSystem.out.println(steps);",
+    "question": "Update a value based on whether it is even. Repair the missing line in the displayed code.",
+    "options": [
+      "value = value % 2 == 0 ? value / 2 : value + 1;",
+      "value = value % 2 != 0 ? value / 2 : value + 1;",
+      "value = value % 2 == 0 ? value / 2 : value - 1;",
+      "value = value % 2 == 0 ? value * 2 : value + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Reverse traversal",
+    "code": "for (int i = 9; i >= 0; i--) {\n    System.out.println(i);\n}",
+    "question": "Traverse the integer range in reverse. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 9; i >= 0; i--) {",
+      "for (int i = 9; i < 0; i--) {",
+      "for (int i = 9; i >= 0; i++) {",
+      "for (int i == 9; i >= 0; i--) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Multiple loop controls",
+    "code": "int total = 0;\nfor (int i = 1; i <= 20; i++) {\n    if (i % 2 != 0) continue;\n    if (i > 2) break;\n    total += i;\n}\nSystem.out.println(total);",
+    "question": "Add even numbers until the upper limit is exceeded. Repair the missing line in the displayed code.",
+    "options": [
+      "if (i % 2 != 0) continue;",
+      "if (i % 2 == 0) continue;",
+      "if (i % 3 != 0) continue;",
+      "if (i % 1 != 0) continue;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "While loop state",
+    "code": "int n = 3;\nint product = 1;\nwhile (n > 0) {\n    product *= n;\n    n--;\n}\nSystem.out.println(product);",
+    "question": "Calculate a factorial using a while loop. Repair the missing line in the displayed code.",
+    "options": [
+      "product *= n;",
+      "product *= nValue;",
+      "product *= nCount;",
+      "product *= n + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Loop-based digit processing",
+    "code": "int number = 4;\nint sum = 0;\nwhile (number > 0) {\n    sum += number % 10;\n    number /= 10;\n}\nSystem.out.println(sum);",
+    "question": "Calculate the sum of the digits of a positive number. Repair the missing line in the displayed code.",
+    "options": [
+      "sum += number % 10;",
+      "sum += number % 11;",
+      "sum += number % 9;",
+      "sum += number % 12;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Nested pattern",
+    "code": "for (int row = 1; row <= 3; row++) {\n    for (int col = 1; col <= 3; col++) {\n        if (row == col) System.out.print(\"X\");\n        else System.out.print(\".\");\n    }\n    System.out.println();\n}",
+    "question": "Print a diagonal pattern using nested loops. Repair the missing line in the displayed code.",
+    "options": [
+      "if (row == col) System.out.print(\"X\");",
+      "if (row != col) System.out.print(\"X\");",
+      "if (row == col) System.out.print(\"XValue\");",
+      "if (row == col) System.out.print(\"XCount\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Loop termination",
+    "code": "int count = 0;\nint value = 6;\nwhile (value > 0) {\n    value -= 3;\n    count++;\n}\nSystem.out.println(count);",
+    "question": "Count repeated subtraction steps until the value is non-positive. Repair the missing line in the displayed code.",
+    "options": [
+      "value -= 3;",
+      "value -= 4;",
+      "value -= 2;",
+      "value -= 5;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 4,
+    "chapterName": "Loop Lagoon",
+    "difficulty": "Hard",
+    "subtopic": "Prime-number check",
+    "code": "int number = 7;\nboolean prime = number > 1;\nfor (int i = 2; i * i <= number; i++) {\n    if (number % i == 0) {\n        prime = false;\n        break;\n    }\n}\nSystem.out.println(prime);",
+    "question": "Check whether a number has a divisor other than one and itself. Repair the missing line in the displayed code.",
+    "options": [
+      "if (number % i == 0) {",
+      "if (number % i != 0) {",
+      "if (number % i == 1) {",
+      "if (number % i == 2) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "String declaration",
+    "code": "String name = \"Code\";\nSystem.out.println(name);",
+    "question": "Store and print a name. Repair the missing line in the displayed code.",
+    "options": [
+      "String name = \"Code\";",
+      "String name == \"Code\";",
+      "String name = \"CodeValue\";",
+      "String name = \"CodeCount\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "String length",
+    "code": "String message = \"River\";\nSystem.out.println(message.length());",
+    "question": "Print the number of characters in a String. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(message.length());",
+      "System.out.println(message.River());",
+      "System.out.println(message.lengthCount());",
+      "System.out.println(message.length()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "Character access",
+    "code": "String word = \"Mia\";\nSystem.out.println(word.charAt(0));",
+    "question": "Print the first character of a String. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(word.charAt(0));",
+      "System.out.println(word.charAt(1));",
+      "System.out.println(word.charAt(2));",
+      "System.out.println(word.Mia(0));"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "String concatenation",
+    "code": "String first = \"Quest\";\nString second = \"Jungle\";\nSystem.out.println(first + second);",
+    "question": "Join two strings together. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(first + second);",
+      "System.out.println(first - second);",
+      "System.out.println(first + Quest);",
+      "System.out.println(first + secondCount);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "String equality",
+    "code": "String answer = \"Java\";\nSystem.out.println(answer.equals(\"yes\"));",
+    "question": "Check whether the answer exactly matches yes. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(answer.equals(\"yes\"));",
+      "System.out.println(answer.equals(\"Java\"));",
+      "System.out.println(answer.equals(\"yesCount\"));",
+      "System.out.println(answer.equals(\"yes\")) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "Case conversion",
+    "code": "String word = \"Leo\";\nSystem.out.println(word.toUpperCase());",
+    "question": "Print the word in uppercase. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(word.toUpperCase());",
+      "System.out.println(word.Leo());",
+      "System.out.println(word.toUpperCaseCount());",
+      "System.out.println(word.toUpperCase()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "Substring",
+    "code": "String word = \"Mulo\";\nSystem.out.println(word.substring(0, 2));",
+    "question": "Print the first two characters of the word. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(word.substring(0, 2));",
+      "System.out.println(word.substring(1, 2));",
+      "System.out.println(word.substring(2, 2));",
+      "System.out.println(word.Mulo(0, 2));"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "Contains",
+    "code": "String message = \"Jungle\";\nSystem.out.println(message.contains(\"a\"));",
+    "question": "Check whether the text contains the letter a. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(message.contains(\"a\"));",
+      "System.out.println(message.contains(\"Jungle\"));",
+      "System.out.println(message.contains(\"aCount\"));",
+      "System.out.println(message.contains(\"a\")) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "Trim whitespace",
+    "code": "String input = \"  Clue  \";\nSystem.out.println(input.trim());",
+    "question": "Remove whitespace from both ends of a string. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(input.trim());",
+      "System.out.println(input.Clue());",
+      "System.out.println(input.trimCount());",
+      "System.out.println(input.trim()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Easy",
+    "subtopic": "Empty string",
+    "code": "String input = \"Key\";\nSystem.out.println(input.isEmpty());",
+    "question": "Check whether the string has no characters. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(input.isEmpty());",
+      "System.out.println(input.Key());",
+      "System.out.println(input.isEmptyCount());",
+      "System.out.println(input.isEmpty()) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Ignore case",
+    "code": "String input = \"Code\";\nboolean match = input.equalsIgnoreCase(\"JAVA\");\nSystem.out.println(match);",
+    "question": "Compare text without considering letter case. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean match = input.equalsIgnoreCase(\"JAVA\");",
+      "boolean match == input.equalsIgnoreCase(\"JAVA\");",
+      "boolean match = input.equalsIgnoreCase(\"Code\");",
+      "boolean match = input.equalsIgnoreCase(\"JAVACount\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Substring range",
+    "code": "String word = \"River\";\nString part = word.substring(1, 4);\nSystem.out.println(part);",
+    "question": "Extract characters from index one up to, but not including, four. Repair the missing line in the displayed code.",
+    "options": [
+      "String part = word.substring(1, 4);",
+      "String part == word.substring(1, 4);",
+      "String part = word.substring(2, 4);",
+      "String part = word.substring(0, 4);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Find a character",
+    "code": "String word = \"Mia\";\nint position = word.indexOf(\"a\");\nSystem.out.println(position);",
+    "question": "Find the first position of the letter a. Repair the missing line in the displayed code.",
+    "options": [
+      "int position = word.indexOf(\"a\");",
+      "int position == word.indexOf(\"a\");",
+      "int position = word.indexOf(\"Mia\");",
+      "int position = word.indexOf(\"aCount\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Replace text",
+    "code": "String message = \"Quest\";\nSystem.out.println(message.replace(\"a\", \"@\"));",
+    "question": "Replace every lowercase a with @. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(message.replace(\"a\", \"@\"));",
+      "System.out.println(message.replace(\"Quest\", \"@\"));",
+      "System.out.println(message.replace(\"aCount\", \"@\"));",
+      "System.out.println(message.replace(\"a\", \"@\")) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Split strings",
+    "code": "String csv = \"red,green,blue\";\nString[] colors = csv.split(\",\");\nSystem.out.println(colors[1]);",
+    "question": "Split comma-separated text and print the second item. Repair the missing line in the displayed code.",
+    "options": [
+      "String[] colors = csv.split(\",\");",
+      "String[] colors == csv.split(\",\");",
+      "String[] colors = csv.red(\",\");",
+      "String[] colors = csv.splitCount(\",\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Concatenate safely",
+    "code": "String first = \"Leo\";\nString last = \"Explorer\";\nString full = first + \" \" + last;\nSystem.out.println(full);",
+    "question": "Build a full name with a space between parts. Repair the missing line in the displayed code.",
+    "options": [
+      "String full = first + \" \" + last;",
+      "String full = first - \" \" + last;",
+      "String full == first + \" \" + last;",
+      "String full = first + \" \" + Leo;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Character comparison",
+    "code": "String word = \"Mulo\";\nchar first = word.charAt(0);\nSystem.out.println(first >= 'A' && first <= 'Z');",
+    "question": "Check whether the first character is uppercase. Repair the missing line in the displayed code.",
+    "options": [
+      "char first = word.charAt(0);",
+      "char first == word.charAt(0);",
+      "char first = word.charAt(1);",
+      "char first = word.charAt(2);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Starts with",
+    "code": "String path = \"Jungle/chapter1\";\nSystem.out.println(path.startsWith(\"Jungle\"));",
+    "question": "Check whether a path begins with a given prefix. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(path.startsWith(\"Jungle\"));",
+      "System.out.println(path.startsWith(\"chapter1\"));",
+      "System.out.println(path.startsWith(\"JungleCount\"));",
+      "System.out.println(path.startsWith(\"Jungle\")) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "Ends with",
+    "code": "String file = \"notes.txt\";\nSystem.out.println(file.endsWith(\".txt\"));",
+    "question": "Check whether a file name has a .txt suffix. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(file.endsWith(\".txt\"));",
+      "System.out.println(file.endsWith(\".notes\"));",
+      "System.out.println(file.endsWith(\".txtCount\"));",
+      "System.out.println(file.endsWith(\".txt\")) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Medium",
+    "subtopic": "String building",
+    "code": "String result = \"\";\nresult += \"Key\";\nresult += \" \"; \nresult += \"ready\";\nSystem.out.println(result);",
+    "question": "Build a message by appending several parts. Repair the missing line in the displayed code.",
+    "options": [
+      "result += \"Key\";",
+      "result += \"ready\";",
+      "result += \"KeyCount\";",
+      "result += \"Key\" + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Null-safe string comparison",
+    "code": "String input = \"Code\";\nif (input != null && input.equalsIgnoreCase(\"open\")) {\n    System.out.println(\"Unlocked\");\n}",
+    "question": "Avoid calling a String method when the reference is null. Repair the missing line in the displayed code.",
+    "options": [
+      "if (input != null && input.equalsIgnoreCase(\"open\")) {",
+      "if (input == null && input.equalsIgnoreCase(\"open\")) {",
+      "if (input != null && input.equalsIgnoreCase(\"Code\")) {",
+      "if (input != null && input.equalsIgnoreCase(\"openCount\")) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Palindrome preparation",
+    "code": "String word = \"River\";\nString reversed = new StringBuilder(word).reverse().toString();\nSystem.out.println(word.equals(reversed));",
+    "question": "Compare a word with its reversed version. Repair the missing line in the displayed code.",
+    "options": [
+      "String reversed = new StringBuilder(word).reverse().toString();",
+      "String reversed == new StringBuilder(word).reverse().toString();",
+      "String reversed = new StringBuilder(word).reverse().River();",
+      "String reversed = new StringBuilder(word).reverse().toStringCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Count characters",
+    "code": "String word = \"Mia\";\nint count = 0;\nfor (int i = 0; i < word.length(); i++) if (word.charAt(i) == 'a') count++;\nSystem.out.println(count);",
+    "question": "Count lowercase a characters in a string. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < word.length(); i++) if (word.charAt(i) == 'a') count++;",
+      "for (int i = 0; i < word.length(); i++) if (word.charAt(i) != 'a') count++;",
+      "for (int i = 0; i < word.length(); i--) if (word.charAt(i) == 'a') count++;",
+      "for (int i = 0; i > word.length(); i++) if (word.charAt(i) == 'a') count++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Normalize input",
+    "code": "String input = \"  Quest  \";\nString normalized = input.trim().toLowerCase();\nSystem.out.println(normalized);",
+    "question": "Trim whitespace and convert input to lowercase. Repair the missing line in the displayed code.",
+    "options": [
+      "String normalized = input.trim().toLowerCase();",
+      "String normalized == input.trim().toLowerCase();",
+      "String normalized = input.trim().Quest();",
+      "String normalized = input.trim().toLowerCaseCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Compare substrings",
+    "code": "String code = \"JAVA-2026\";\nboolean valid = code.substring(0, 4).equals(\"JAVA\");\nSystem.out.println(valid);",
+    "question": "Check the prefix by extracting the first four characters. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean valid = code.substring(0, 4).equals(\"JAVA\");",
+      "boolean valid == code.substring(0, 4).equals(\"JAVA\");",
+      "boolean valid = code.substring(1, 4).equals(\"JAVA\");",
+      "boolean valid = code.substring(2, 4).equals(\"JAVA\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Find last occurrence",
+    "code": "String text = \"Leo banana\";\nint position = text.lastIndexOf(\"a\");\nSystem.out.println(position);",
+    "question": "Find the last position of a character. Repair the missing line in the displayed code.",
+    "options": [
+      "int position = text.lastIndexOf(\"a\");",
+      "int position == text.lastIndexOf(\"a\");",
+      "int position = text.lastIndexOf(\"Leo\");",
+      "int position = text.lastIndexOf(\"aCount\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Split and process",
+    "code": "String csv = \"4,7,9\";\nString[] parts = csv.split(\",\");\nint total = 0;\nfor (String part : parts) total += Integer.parseInt(part);\nSystem.out.println(total);",
+    "question": "Parse and add integer values stored as comma-separated text. Repair the missing line in the displayed code.",
+    "options": [
+      "for (String part : parts) total += Integer.parseInt(part);",
+      "for (String csv : parts) total += Integer.parseInt(part);",
+      "for (String partCount : parts) total += Integer.parseInt(part);",
+      "for (String part : parts) total += Integer.parseInt(part) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Character classification",
+    "code": "String input = \"Jungle\";\nint letters = 0;\nfor (int i = 0; i < input.length(); i++) if (Character.isLetter(input.charAt(i))) letters++;\nSystem.out.println(letters);",
+    "question": "Count letters in a string while ignoring other characters. Repair the missing line in the displayed code.",
+    "options": [
+      "if (Character.isLetter(input.charAt(i))) letters++;",
+      "if (Character.isLetter(input.charAt(i))) letters--;",
+      "if (Character.isLetter(input.charAt(i))) Jungle++;",
+      "if (Character.isLetter(input.charAt(i))) lettersCount++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "StringBuilder",
+    "code": "StringBuilder builder = new StringBuilder();\nbuilder.append(\"Clue\");\nbuilder.append(\"-case\");\nSystem.out.println(builder.toString());",
+    "question": "Append text efficiently with a StringBuilder. Repair the missing line in the displayed code.",
+    "options": [
+      "builder.append(\"-case\");",
+      "builder.StringBuilder(\"-case\");",
+      "builder.appendCount(\"-case\");",
+      "builder.append(\"-case\") + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 6,
+    "chapterName": "String Swamp",
+    "difficulty": "Hard",
+    "subtopic": "Safe substring boundary",
+    "code": "String word = \"Key\";\nint end = Math.min(3, word.length());\nSystem.out.println(word.substring(0, end));",
+    "question": "Avoid requesting a substring beyond the string length. Repair the missing line in the displayed code.",
+    "options": [
+      "int end = Math.min(3, word.length());",
+      "int end == Math.min(3, word.length());",
+      "int end = Math.min(4, word.length());",
+      "int end = Math.min(2, word.length());"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

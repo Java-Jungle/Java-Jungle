@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Class declaration",
+    "code": "class Player {\n    String name;\n    int score;\n}\nPlayer p = new Player();\np.name = \"Mia\";\nSystem.out.println(p.name);",
+    "question": "Create a Player object and assign its name. Repair the missing line in the displayed code.",
+    "options": [
+      "Player p = new Player();",
+      "Player p == new Player();",
+      "name p = new Player();",
+      "PlayerCount p = new Player();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Object fields",
+    "code": "class Item {\n    String name;\n}\nItem item = new Item();\nitem.name = \"Key\";\nSystem.out.println(item.name);",
+    "question": "Set and read an object's field. Repair the missing line in the displayed code.",
+    "options": [
+      "item.name = \"Key\";",
+      "item.name == \"Key\";",
+      "item.name = \"Item\";",
+      "item.name = \"KeyCount\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Constructor basics",
+    "code": "class Badge {\n    String title;\n    Badge(String t) { title = t; }\n}\nBadge b = new Badge(\"Explorer\");\nSystem.out.println(b.title);",
+    "question": "Use a constructor to initialize a badge title. Repair the missing line in the displayed code.",
+    "options": [
+      "Badge(String t) { title = t; }",
+      "Badge(String t) { title == t; }",
+      "Badge(String b) { title = t; }",
+      "Badge(String tCount) { title = t; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Instance method",
+    "code": "class Lamp {\n    void turnOn() { System.out.println(\"On\"); }\n}\nLamp lamp = new Lamp();\nlamp.turnOn();",
+    "question": "Call an instance method on an object. Repair the missing line in the displayed code.",
+    "options": [
+      "lamp.turnOn();",
+      "lamp.Lamp();",
+      "lamp.turnOnCount();",
+      "lamp.turnOn() + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Field initialization",
+    "code": "class Score {\n    int points = 6;\n}\nScore s = new Score();\nSystem.out.println(s.points);",
+    "question": "Initialize a field when an object is created. Repair the missing line in the displayed code.",
+    "options": [
+      "int points = 6;",
+      "int points == 6;",
+      "int points = 7;",
+      "int points = 5;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Multiple objects",
+    "code": "class Pet {\n    String name;\n}\nPet first = new Pet();\nPet second = new Pet();\nfirst.name = \"Milo\";\nsecond.name = \"Luna\";\nSystem.out.println(first.name + second.name);",
+    "question": "Create two independent objects of the same class. Repair the missing line in the displayed code.",
+    "options": [
+      "Pet second = new Pet();",
+      "Pet second == new Pet();",
+      "name second = new Pet();",
+      "PetCount second = new Pet();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Method using a field",
+    "code": "class Counter {\n    int count;\n    void increment() { count++; }\n}\nCounter c = new Counter();\nc.increment();\nSystem.out.println(c.count);",
+    "question": "Update an object's field through a method. Repair the missing line in the displayed code.",
+    "options": [
+      "void increment() { count++; }",
+      "void increment() { count--; }",
+      "void increment() { Counter++; }",
+      "void increment() { countCount++; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Constructor parameter",
+    "code": "class Coin {\n    int value;\n    Coin(int amount) { value = amount; }\n}\nCoin coin = new Coin(9);\nSystem.out.println(coin.value);",
+    "question": "Pass a value into a constructor. Repair the missing line in the displayed code.",
+    "options": [
+      "Coin(int amount) { value = amount; }",
+      "Coin(int amount) { value == amount; }",
+      "Coin(int coin) { value = amount; }",
+      "Coin(int amountCount) { value = amount; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "toString basics",
+    "code": "class Tag {\n    String label;\n    public String toString() { return label; }\n}\nTag t = new Tag();\nt.label = \"Jungle\";\nSystem.out.println(t);",
+    "question": "Return a readable label from toString. Repair the missing line in the displayed code.",
+    "options": [
+      "public String toString() { return label; }",
+      "public String toString() { return Tag; }",
+      "public String toString() { return labelCount; }",
+      "public String toString() { return label; } + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Easy",
+    "subtopic": "Static field",
+    "code": "class Game {\n    static int players = 0;\n}\nGame.players++;\nSystem.out.println(Game.players);",
+    "question": "Access a class-level field through the class name. Repair the missing line in the displayed code.",
+    "options": [
+      "Game.players++;",
+      "Game.players--;",
+      "Game.playersValue++;",
+      "Game.playersCount++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Encapsulation",
+    "code": "class Wallet {\n    private int coins;\n    public void addCoins(int amount) { if (amount > 0) coins += amount; }\n    public int getCoins() { return coins; }\n}\nWallet w = new Wallet();\nw.addCoins(4);\nSystem.out.println(w.getCoins());",
+    "question": "Change a private field through a public method. Repair the missing line in the displayed code.",
+    "options": [
+      "public void addCoins(int amount) { if (amount > 0) coins += amount; }",
+      "public void addCoins(int amount) { if (amount < 0) coins += amount; }",
+      "public void addCoins(int amount) { if (amount > 1) coins += amount; }",
+      "public void addCoins(int amount) { if (amount > 2) coins += amount; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Constructor initialization",
+    "code": "class Student {\n    String name;\n    int year;\n    Student(String name, int year) { this.name = name; this.year = year; }\n}\nStudent s = new Student(\"Leo\", 1);\nSystem.out.println(s.name);",
+    "question": "Use this to distinguish fields from parameters. Repair the missing line in the displayed code.",
+    "options": [
+      "Student(String name, int year) { this.name = name; this.year = year; }",
+      "Student(String name, int year) { this.name == name; this.year = year; }",
+      "Student(String name, int s) { this.name = name; this.year = year; }",
+      "Student(String name, int yearCount) { this.name = name; this.year = year; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Method returns field",
+    "code": "class Box {\n    int size;\n    int getSize() { return size; }\n}\nBox b = new Box();\nb.size = 6;\nSystem.out.println(b.getSize());",
+    "question": "Return an object's stored size. Repair the missing line in the displayed code.",
+    "options": [
+      "int getSize() { return size; }",
+      "int getSize() { return Box; }",
+      "int getSize() { return sizeCount; }",
+      "int getSize() { return size; } + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Object interaction",
+    "code": "class Door {\n    boolean locked = true;\n    void unlock() { locked = false; }\n}\nDoor d = new Door();\nd.unlock();\nSystem.out.println(d.locked);",
+    "question": "Change an object's state by calling a method. Repair the missing line in the displayed code.",
+    "options": [
+      "void unlock() { locked = false; }",
+      "void unlock() { locked == false; }",
+      "void unlock() { locked = true; }",
+      "void unlock() { Door = false; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Static method",
+    "code": "class MathHelper {\n    static int doubleIt(int n) { return n * 2; }\n}\nSystem.out.println(MathHelper.doubleIt(8));",
+    "question": "Call a static method without creating an object. Repair the missing line in the displayed code.",
+    "options": [
+      "static int doubleIt(int n) { return n * 2; }",
+      "static int doubleIt(int n) { return n / 2; }",
+      "static int doubleIt(int n) { return n * 3; }",
+      "static int doubleIt(int n) { return n * 1; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Object comparison",
+    "code": "class Token {\n    int id;\n}\nToken a = new Token();\nToken b = new Token();\na.id = 1; b.id = 1;\nSystem.out.println(a == b);",
+    "question": "Understand that two separate objects are different references. Repair the missing line in the displayed code.",
+    "options": [
+      "Token b = new Token();",
+      "Token b == new Token();",
+      "id b = new Token();",
+      "TokenCount b = new Token();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Default constructor",
+    "code": "class Marker {\n    String color = \"green\";\n}\nMarker m = new Marker();\nSystem.out.println(m.color);",
+    "question": "Create an object using its implicit no-argument constructor. Repair the missing line in the displayed code.",
+    "options": [
+      "Marker m = new Marker();",
+      "Marker m == new Marker();",
+      "color m = new Marker();",
+      "MarkerCount m = new Marker();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Method updates object",
+    "code": "class Player {\n    int score;\n    void earn(int points) { score += points; }\n}\nPlayer p = new Player();\np.earn(3);\nSystem.out.println(p.score);",
+    "question": "Add points to a player's score. Repair the missing line in the displayed code.",
+    "options": [
+      "void earn(int points) { score += points; }",
+      "void earn(int Player) { score += points; }",
+      "void earn(int pointsCount) { score += points; }",
+      "void earn(int points) { score += points; } + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Array of objects",
+    "code": "class Book {\n    String title;\n}\nBook[] books = new Book[2];\nbooks[0] = new Book();\nbooks[0].title = \"Java\";\nSystem.out.println(books[0].title);",
+    "question": "Create an object and store its reference in an array. Repair the missing line in the displayed code.",
+    "options": [
+      "books[0] = new Book();",
+      "books[0] == new Book();",
+      "books[1] = new Book();",
+      "books[2] = new Book();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Medium",
+    "subtopic": "Access modifiers",
+    "code": "class Account {\n    private int balance;\n    public int getBalance() { return balance; }\n}\nAccount account = new Account();\nSystem.out.println(account.getBalance());",
+    "question": "Read a private field through a public getter. Repair the missing line in the displayed code.",
+    "options": [
+      "public int getBalance() { return balance; }",
+      "public int getBalance() { return Account; }",
+      "public int getBalance() { return balanceCount; }",
+      "public int getBalance() { return balance; } + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Inheritance",
+    "code": "class Animal { void speak() { System.out.println(\"Sound\"); } }\nclass Dog extends Animal { @Override void speak() { System.out.println(\"Woof\"); } }\nAnimal pet = new Dog();\npet.speak();",
+    "question": "Use polymorphism to call the overridden method. Repair the missing line in the displayed code.",
+    "options": [
+      "class Dog extends Animal { @Override void speak() { System.out.println(\"Woof\"); } }",
+      "class Dog extends Animal { @Override void speak() { System.out.println(\"Sound\"); } }",
+      "class Dog extends Animal { @Override void speak() { System.out.println(\"WoofCount\"); } }",
+      "class Dog extends Animal { @Override void speak() { System.out.println(\"Woof\"); } } + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "super constructor",
+    "code": "class Person { String name; Person(String name) { this.name = name; } }\nclass Student extends Person {\n    int year;\n    Student(String name, int year) { super(name); this.year = year; }\n}\nStudent s = new Student(\"Mia\", 2);\nSystem.out.println(s.name);",
+    "question": "Initialize inherited state by calling the parent constructor. Repair the missing line in the displayed code.",
+    "options": [
+      "Student(String name, int year) { super(name); this.year = year; }",
+      "Student(String name, int year) { super(name); this.year == year; }",
+      "Student(String name, int Person) { super(name); this.year = year; }",
+      "Student(String name, int yearCount) { super(name); this.year = year; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Method overriding",
+    "code": "class Shape { double area() { return 0.0; } }\nclass Square extends Shape { double side; Square(double side) { this.side = side; } @Override double area() { return side * side; } }\nShape shape = new Square(4);\nSystem.out.println(shape.area());",
+    "question": "Call the overridden area method through a parent reference. Repair the missing line in the displayed code.",
+    "options": [
+      "@Override double area() { return side * side; }",
+      "@Override double area() { return side / side; }",
+      "@Override double area() { return Shape * side; }",
+      "@Override double area() { return sideCount * side; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Encapsulated validation",
+    "code": "class BankAccount {\n    private int balance;\n    public void deposit(int amount) { if (amount > 0) balance += amount; }\n    public int balance() { return balance; }\n}\nBankAccount a = new BankAccount();\na.deposit(9);\nSystem.out.println(a.balance());",
+    "question": "Prevent invalid deposits from changing the balance. Repair the missing line in the displayed code.",
+    "options": [
+      "public void deposit(int amount) { if (amount > 0) balance += amount; }",
+      "public void deposit(int amount) { if (amount < 0) balance += amount; }",
+      "public void deposit(int amount) { if (amount > 1) balance += amount; }",
+      "public void deposit(int amount) { if (amount > 2) balance += amount; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Composition",
+    "code": "class Engine { String type = \"electric\"; }\nclass Car { Engine engine = new Engine(); }\nCar car = new Car();\nSystem.out.println(car.engine.type);",
+    "question": "Access an object contained inside another object. Repair the missing line in the displayed code.",
+    "options": [
+      "Engine engine = new Engine();",
+      "Engine engine == new Engine();",
+      "type engine = new Engine();",
+      "EngineCount engine = new Engine();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Polymorphic array",
+    "code": "class Animal { String sound() { return \"?\"; } }\nclass Cat extends Animal { @Override String sound() { return \"Meow\"; } }\nAnimal[] pets = { new Cat(), new Animal() };\nSystem.out.println(pets[0].sound());",
+    "question": "Store subclass objects in a parent-class array. Repair the missing line in the displayed code.",
+    "options": [
+      "Animal[] pets = { new Cat(), new Animal() };",
+      "Animal[] pets == { new Cat(), new Animal() };",
+      "sound[] pets = { new Cat(), new Animal() };",
+      "AnimalCount[] pets = { new Cat(), new Animal() };"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Static counter",
+    "code": "class Visitor {\n    static int count = 0;\n    Visitor() { count++; }\n}\nnew Visitor();\nnew Visitor();\nSystem.out.println(Visitor.count);",
+    "question": "Track the number of objects using a static field. Repair the missing line in the displayed code.",
+    "options": [
+      "Visitor() { count++; }",
+      "Visitor() { count--; }",
+      "Visitor() { countValue++; }",
+      "Visitor() { countCount++; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Constructor chaining",
+    "code": "class Base { int value; Base(int value) { this.value = value; } }\nclass Child extends Base { Child() { super(7); } }\nChild child = new Child();\nSystem.out.println(child.value);",
+    "question": "Call a parent constructor from a child constructor. Repair the missing line in the displayed code.",
+    "options": [
+      "Child() { super(7); }",
+      "Child() { super(8); }",
+      "Child() { super(6); }",
+      "Child() { super(9); }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Equals method",
+    "code": "class Point {\n    int x; int y;\n    Point(int x, int y) { this.x = x; this.y = y; }\n    boolean same(Point other) { return other != null && x == other.x && y == other.y; }\n}\nSystem.out.println(new Point(1, 2).same(new Point(1, 2)));",
+    "question": "Compare object contents safely instead of references. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean same(Point other) { return other != null && x == other.x && y == other.y; }",
+      "boolean same(Point other) { return other != null && x != other.x && y == other.y; }",
+      "boolean same(Point other) { return other == null && x == other.x && y == other.y; }",
+      "boolean same(Point other) { return other != null && x == other.x && yValue == other.y; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 8,
+    "chapterName": "Class Caverns",
+    "difficulty": "Hard",
+    "subtopic": "Interface implementation",
+    "code": "interface Usable { void use(); }\nclass Key implements Usable { public void use() { System.out.println(\"Unlocked\"); } }\nUsable item = new Key();\nitem.use();",
+    "question": "Implement an interface and call it through the interface type. Repair the missing line in the displayed code.",
+    "options": [
+      "class Key implements Usable { public void use() { System.out.println(\"Unlocked\"); } }",
+      "class Key implements Usable { public void use() { System.out.println(\"interface\"); } }",
+      "class Key implements Usable { public void use() { System.out.println(\"UnlockedCount\"); } }",
+      "class Key implements Usable { public void use() { System.out.println(\"Unlocked\"); } } + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

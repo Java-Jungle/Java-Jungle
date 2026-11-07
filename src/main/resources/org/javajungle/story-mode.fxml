@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import org.javajungle.VineFrame?>
+<?import org.javajungle.BinaryRain?>
+
+<BorderPane xmlns="http://javafx.com/javafx/25"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.javajungle.StoryModeController"
+            styleClass="app-root">
+    <center>
+        <StackPane fx:id="framePane" styleClass="screen-frame">
+        <BinaryRain mouseTransparent="true" />
+        <VineFrame mouseTransparent="true" prefWidth="1360" prefHeight="760" />
+        <VBox styleClass="terminal" spacing="20">
+            <StackPane.margin>
+                <Insets top="34" right="34" bottom="34" left="34" />
+            </StackPane.margin>
+            <padding><Insets top="24" right="24" bottom="22" left="24" /></padding>
+            <HBox styleClass="brand-bar" alignment="CENTER_LEFT" spacing="12">
+                <Label text="JAVA JUNGLE" styleClass="game-title" />
+                <Region HBox.hgrow="ALWAYS" />
+                <StackPane styleClass="player-avatar-badge">
+                    <ImageView fx:id="playerAvatarImage" fitWidth="36" fitHeight="36" preserveRatio="true" smooth="true" />
+                </StackPane>
+                <Label text="STORY MODE" styleClass="mode-label" />
+                <Label fx:id="heartsLabel" text="♥  ♥  ♥" styleClass="hearts" />
+                <Label text="XP" styleClass="accent-green" />
+                <Label fx:id="xpLabel" text="0" styleClass="accent-green xp-value" />
+            </HBox>
+            <HBox styleClass="case-header" alignment="CENTER_LEFT" spacing="8">
+                <StackPane styleClass="vine-motif" prefWidth="34" prefHeight="48">
+                    <SVGPath content="M8 1C22 10 3 18 17 27S10 43 24 48" styleClass="vine-stem" />
+                    <SVGPath content="M13 12C4 5 1 12 11 17Z M8 24C17 17 22 23 11 29Z M20 36C11 29 8 36 19 41Z M17 43C25 37 29 43 19 47Z" styleClass="jungle-leaves" />
+                </StackPane>
+                <Label fx:id="caseNumberLabel" text="CASE 03" styleClass="accent-cyan" />
+                <Label text="/" styleClass="muted" />
+                <Label fx:id="caseTitleLabel" text="Hospital records" styleClass="case-name" />
+                <Label fx:id="caseTopicLabel" text="LOOPS" styleClass="case-topic-badge" />
+                <Label fx:id="difficultyBadge" text="MEDIUM" styleClass="difficulty-badge difficulty-medium" />
+                <Region HBox.hgrow="ALWAYS" />
+            </HBox>
+            <HBox styleClass="briefing" spacing="8" alignment="TOP_LEFT">
+                <Label text="ACTIVE CASE //" styleClass="accent-cyan" />
+                <ScrollPane styleClass="briefing-scroll" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED" prefHeight="70" maxHeight="70" HBox.hgrow="ALWAYS">
+                    <content><Label fx:id="briefingLabel" text="The night shift totals are wrong. Find the bug before the ward closes its records." styleClass="briefing-text" wrapText="true" maxWidth="Infinity" /></content>
+                </ScrollPane>
+            </HBox>
+            <HBox styleClass="work-area" spacing="12" VBox.vgrow="ALWAYS">
+                <VBox styleClass="code-panel" spacing="0" prefWidth="680" minHeight="0" HBox.hgrow="ALWAYS">
+                    <HBox styleClass="panel-bar" alignment="CENTER_LEFT" spacing="8">
+                        <Label text="●" styleClass="dot-red" />
+                        <Label text="●" styleClass="dot-yellow" />
+                        <Label text="●" styleClass="dot-green" />
+                        <Label fx:id="fileNameLabel" text="CASE DOSSIER / Records.java" styleClass="file-name" />
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Label text="0101 · 0010 · 1101" styleClass="binary-motif" />
+                        <Label fx:id="editorMode" text="read only" styleClass="editor-mode" />
+                    </HBox>
+                    <HBox fx:id="editorRow" styleClass="editor-row" alignment="TOP_LEFT" minHeight="0" VBox.vgrow="ALWAYS">
+                        <VBox fx:id="lineNumbers" styleClass="line-numbers" spacing="0" />
+                        <TextArea fx:id="codeArea" styleClass="code-area" wrapText="false" minHeight="0" maxHeight="Infinity" HBox.hgrow="ALWAYS"
+                                  text="int total = 0;&#10;int days = 5;&#10;for (int i = 0; i &lt;= days; i++) {&#10;    total = total + i;&#10;}&#10;System.out.println(total);" />
+                    </HBox>
+                </VBox>
+                <ScrollPane styleClass="feedback-scroll" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED" minHeight="0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                  <content><VBox styleClass="feedback-panel" spacing="18" prefWidth="390" minHeight="0">
+                    <Label text="AUTO-DIAGNOSTIC LOG" styleClass="diagnostic-heading" />
+                    <Label fx:id="feedbackTitle" text="> feedback" styleClass="feedback-heading" />
+                    <Label fx:id="feedbackMessage" text="Results appear here after you submit your fix." styleClass="feedback-copy" wrapText="true" />
+                    <HBox spacing="8">
+                        <Button fx:id="hintButton" text="GET A HINT" onAction="#handleHint" styleClass="help-choice-button" visible="false" managed="false" />
+                        <Button fx:id="revealAnswerButton" text="REVEAL ANSWER" onAction="#handleRevealAnswer" styleClass="help-choice-button, help-choice-reveal" visible="false" managed="false" />
+                    </HBox>
+                    <Label fx:id="correctAnswerHeading" text="CORRECT ANSWER" styleClass="diagnostic-heading" visible="false" managed="false" />
+                    <TextArea fx:id="correctAnswerArea" styleClass="correct-answer-code" editable="false" wrapText="true" maxWidth="Infinity" prefHeight="140" minHeight="80" maxHeight="180" visible="false" managed="false" />
+                    <Label fx:id="feedbackTopic" text="" styleClass="accent-cyan" wrapText="true" />
+                    <VBox fx:id="courseLinks" spacing="4" visible="false" managed="false">
+                        <Hyperlink fx:id="playlistLink" text="Perlongs Computing · Java playlist ↗" onAction="#openPlaylist" styleClass="course-link" />
+                        <Hyperlink fx:id="moshCourseLink" text="Programming with Mosh · Java crash course ↗" onAction="#openMoshCourse" styleClass="course-link" />
+                    </VBox>
+                    <HBox spacing="18">
+                        <Label fx:id="feedbackHeart" text="" styleClass="feedback-stat" />
+                        <Label fx:id="feedbackXp" text="" styleClass="feedback-stat" />
+                    </HBox>
+                    <Label fx:id="tryAgain" text="" styleClass="try-again" />
+                    <Region VBox.vgrow="ALWAYS" />
+                  </VBox></content>
+                </ScrollPane>
+            </HBox>
+            <HBox styleClass="footer" alignment="CENTER_LEFT" spacing="10">
+                <Button text="⌂  Mode selection" onAction="#handleModes" styleClass="button-quiet" />
+                <Button text="⬅  Back to cases" onAction="#handleBack" styleClass="button-quiet" />
+                <Region HBox.hgrow="ALWAYS" />
+                <Button fx:id="editButton" text="✎  Edit" onAction="#handleEdit" styleClass="button-primary" />
+                <Button fx:id="submitButton" text="▷  Submit" onAction="#handleSubmit" styleClass="button-submit" disable="true" />
+                <Button fx:id="nextQuestionButton" text="NEXT QUESTION  →" onAction="#handleNextQuestion" styleClass="button-submit" visible="false" managed="false" disable="true" />
+            </HBox>
+        </VBox>
+        </StackPane>
+    </center>
+</BorderPane>

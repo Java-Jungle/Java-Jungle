@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Method call",
+    "code": "int result = add(2, 3);\nSystem.out.println(result);",
+    "question": "Call a method that adds two integers. Repair the missing line in the displayed code.",
+    "options": [
+      "int result = add(2, 3);",
+      "int result == add(2, 3);",
+      "int result = add(3, 3);",
+      "int result = add(1, 3);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Method declaration",
+    "code": "static int doubleValue(int value) {\n    return value * 2;\n}\nSystem.out.println(doubleValue(3));",
+    "question": "Return twice the supplied value. Repair the missing line in the displayed code.",
+    "options": [
+      "return value * 2;",
+      "return value / 2;",
+      "return value * 3;",
+      "return value * 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Void method",
+    "code": "static void greet(String name) {\n    System.out.println(\"Hello \" + name);\n}\ngreet(\"Quest\");",
+    "question": "Call a method that prints a greeting. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(\"Hello \" + name);",
+      "System.out.println(\"Hello \" - name);",
+      "System.out.println(\"Hello \" + greet);",
+      "System.out.println(\"Hello \" + nameCount);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Return value",
+    "code": "static int square(int n) {\n    return n * n;\n}\nSystem.out.println(square(5));",
+    "question": "Return the square of an integer. Repair the missing line in the displayed code.",
+    "options": [
+      "return n * n;",
+      "return n / n;",
+      "return square * n;",
+      "return nCount * n;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Method parameters",
+    "code": "static int multiply(int x, int y) {\n    return x * y;\n}\nSystem.out.println(multiply(6, 4));",
+    "question": "Pass two arguments to a multiplication method. Repair the missing line in the displayed code.",
+    "options": [
+      "return x * y;",
+      "return x / y;",
+      "return x * multiply;",
+      "return x * yCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Boolean method",
+    "code": "static boolean isAdult(int age) {\n    return age >= 18;\n}\nSystem.out.println(isAdult(7));",
+    "question": "Return true when the age is at least 18. Repair the missing line in the displayed code.",
+    "options": [
+      "return age >= 18;",
+      "return age < 18;",
+      "return age >= 19;",
+      "return age >= 17;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "String method",
+    "code": "static String welcome(String name) {\n    return \"Welcome \" + name;\n}\nSystem.out.println(welcome(\"Jungle\"));",
+    "question": "Return a welcome message containing the name. Repair the missing line in the displayed code.",
+    "options": [
+      "return \"Welcome \" + name;",
+      "return \"Welcome \" - name;",
+      "return \"Welcome \" + welcome;",
+      "return \"Welcome \" + nameCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Method with local variable",
+    "code": "static int total(int a, int b) {\n    int sum = a + b;\n    return sum;\n}\nSystem.out.println(total(9, 3));",
+    "question": "Add two values and return the local sum. Repair the missing line in the displayed code.",
+    "options": [
+      "int sum = a + b;",
+      "int sum = a - b;",
+      "int sum == a + b;",
+      "int sum = a + total;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Calling a method twice",
+    "code": "static int increment(int n) {\n    return n + 1;\n}\nSystem.out.println(increment(increment(2)));",
+    "question": "Call the increment method twice. Repair the missing line in the displayed code.",
+    "options": [
+      "return n + 1;",
+      "return n - 1;",
+      "return n + 2;",
+      "return n + 0;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Easy",
+    "subtopic": "Method result in expression",
+    "code": "static int triple(int n) {\n    return n * 3;\n}\nint score = triple(3) + 7;\nSystem.out.println(score);",
+    "question": "Use a returned method value in an expression. Repair the missing line in the displayed code.",
+    "options": [
+      "return n * 3;",
+      "return n / 3;",
+      "return n * 4;",
+      "return n * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Overloaded methods",
+    "code": "static int add(int a, int b) { return a + b; }\nstatic double add(double a, double b) { return a + b; }\nSystem.out.println(add(2.5, 3.5));",
+    "question": "Select the overloaded method that accepts doubles. Repair the missing line in the displayed code.",
+    "options": [
+      "static double add(double a, double b) { return a + b; }",
+      "static double add(double a, double b) { return a - b; }",
+      "static double add(double a, double bValue) { return a + b; }",
+      "static double add(double a, double bCount) { return a + b; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Recursive method",
+    "code": "static int factorial(int n) {\n    if (n <= 1) return 1;\n    return n * factorial(n - 1);\n}\nSystem.out.println(factorial(5));",
+    "question": "Use recursion to calculate a factorial. Repair the missing line in the displayed code.",
+    "options": [
+      "return n * factorial(n - 1);",
+      "return n * factorial(n + 1);",
+      "return n / factorial(n - 1);",
+      "return n * factorial(n - 2);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Parameter validation",
+    "code": "static int safeSquare(int n) {\n    if (n < 0) return -1;\n    return n * n;\n}\nSystem.out.println(safeSquare(6));",
+    "question": "Reject negative inputs before calculating the square. Repair the missing line in the displayed code.",
+    "options": [
+      "if (n < 0) return -1;",
+      "if (n > 0) return -1;",
+      "if (n < 1) return -1;",
+      "if (n < 2) return -1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Method returning maximum",
+    "code": "static int max(int a, int b) {\n    return a > b ? a : b;\n}\nSystem.out.println(max(7, 8));",
+    "question": "Return the larger of two values. Repair the missing line in the displayed code.",
+    "options": [
+      "return a > b ? a : b;",
+      "return a < b ? a : b;",
+      "return a > max ? a : b;",
+      "return a > bCount ? a : b;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Helper method",
+    "code": "static boolean isEven(int n) { return n % 2 == 0; }\nstatic int countEven(int[] values) {\n    int count = 0;\n    for (int value : values) if (isEven(value)) count++;\n    return count;\n}\nSystem.out.println(countEven(new int[]{2, 3, 4}));",
+    "question": "Use a helper method to count even array elements. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : values) if (isEven(value)) count++;",
+      "for (int value : values) if (isEven(value)) count--;",
+      "for (int value : values) if (isEven(value)) n++;",
+      "for (int value : values) if (isEven(value)) countCount++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Early return",
+    "code": "static String classify(int score) {\n    if (score < 0) return \"Invalid\";\n    if (score >= 50) return \"Pass\";\n    return \"Fail\";\n}\nSystem.out.println(classify(9));",
+    "question": "Return early when a score is invalid. Repair the missing line in the displayed code.",
+    "options": [
+      "if (score < 0) return \"Invalid\";",
+      "if (score > 0) return \"Invalid\";",
+      "if (score < 1) return \"Invalid\";",
+      "if (score < 2) return \"Invalid\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Array parameter",
+    "code": "static int sum(int[] values) {\n    int total = 0;\n    for (int value : values) total += value;\n    return total;\n}\nSystem.out.println(sum(new int[]{1, 2, 3}));",
+    "question": "Accept an array and return its sum. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : values) total += value;",
+      "for (int sum : values) total += value;",
+      "for (int valueCount : values) total += value;",
+      "for (int value : values) total += value + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Method composition",
+    "code": "static int square(int n) { return n * n; }\nstatic int sumSquares(int a, int b) { return square(a) + square(b); }\nSystem.out.println(sumSquares(3, 9));",
+    "question": "Compose method calls to add two squares. Repair the missing line in the displayed code.",
+    "options": [
+      "static int sumSquares(int a, int b) { return square(a) + square(b); }",
+      "static int sumSquares(int a, int b) { return square(a) - square(b); }",
+      "static int sumSquares(int a, int n) { return square(a) + square(b); }",
+      "static int sumSquares(int a, int bCount) { return square(a) + square(b); }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "Static method call",
+    "code": "static double half(double value) { return value / 2.0; }\ndouble result = half(11.0);\nSystem.out.println(result);",
+    "question": "Call a static method and store its result. Repair the missing line in the displayed code.",
+    "options": [
+      "double result = half(11.0);",
+      "double result == half(11.0);",
+      "double result = half(12.0);",
+      "double result = half(10.0);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Medium",
+    "subtopic": "String return value",
+    "code": "static String mask(String word) { return word.substring(0, 1) + \"***\"; }\nSystem.out.println(mask(\"Code\"));",
+    "question": "Return a partially masked string. Repair the missing line in the displayed code.",
+    "options": [
+      "static String mask(String word) { return word.substring(0, 1) + \"***\"; }",
+      "static String mask(String word) { return word.substring(0, 1) - \"***\"; }",
+      "static String mask(String word) { return word.substring(1, 1) + \"***\"; }",
+      "static String mask(String word) { return word.substring(2, 1) + \"***\"; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Recursive sum",
+    "code": "static int sumTo(int n) {\n    if (n <= 0) return 0;\n    return n + sumTo(n - 1);\n}\nSystem.out.println(sumTo(6));",
+    "question": "Calculate a sum recursively with a base case. Repair the missing line in the displayed code.",
+    "options": [
+      "return n + sumTo(n - 1);",
+      "return n - sumTo(n - 1);",
+      "return n + sumTo(n + 1);",
+      "return n + sumTo(n - 2);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Recursive array sum",
+    "code": "static int sum(int[] a, int index) {\n    if (index == a.length) return 0;\n    return a[index] + sum(a, index + 1);\n}\nSystem.out.println(sum(new int[]{1, 2, 3}, 0));",
+    "question": "Sum an array recursively by advancing the index. Repair the missing line in the displayed code.",
+    "options": [
+      "return a[index] + sum(a, index + 1);",
+      "return a[index] - sum(a, index + 1);",
+      "return a[index] + sum(a, index + 2);",
+      "return a[index] + sum(a, index + 0);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Overload resolution",
+    "code": "static String describe(int n) { return \"int\"; }\nstatic String describe(double n) { return \"double\"; }\nSystem.out.println(describe(4.5));",
+    "question": "Call the overload that accepts a decimal argument. Repair the missing line in the displayed code.",
+    "options": [
+      "static String describe(double n) { return \"double\"; }",
+      "static String describe(double nValue) { return \"double\"; }",
+      "static String describe(double nCount) { return \"double\"; }",
+      "static String describe(double n) { return \"double\"; } + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Defensive parameter handling",
+    "code": "static int average(int[] values) {\n    if (values == null || values.length == 0) return 0;\n    int total = 0;\n    for (int value : values) total += value;\n    return total / values.length;\n}\nSystem.out.println(average(new int[]{2, 4, 6}));",
+    "question": "Guard against null or empty arrays before division. Repair the missing line in the displayed code.",
+    "options": [
+      "if (values == null || values.length == 0) return 0;",
+      "if (values != null || values.length == 0) return 0;",
+      "if (values == null || values.length == 1) return 0;",
+      "if (values == null || values.length == 2) return 0;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Recursive search",
+    "code": "static boolean contains(int[] values, int target, int i) {\n    if (i >= values.length) return false;\n    if (values[i] == target) return true;\n    return contains(values, target, i + 1);\n}\nSystem.out.println(contains(new int[]{1, 3, 5}, 3, 0));",
+    "question": "Search an array recursively and stop at a match. Repair the missing line in the displayed code.",
+    "options": [
+      "return contains(values, target, i + 1);",
+      "return contains(values, target, i - 1);",
+      "return contains(values, target, i + 2);",
+      "return contains(values, target, i + 0);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Method contract",
+    "code": "static int divide(int numerator, int denominator) {\n    if (denominator == 0) throw new IllegalArgumentException(\"denominator cannot be zero\");\n    return numerator / denominator;\n}\nSystem.out.println(divide(3, 4));",
+    "question": "Reject a zero denominator before division. Repair the missing line in the displayed code.",
+    "options": [
+      "if (denominator == 0) throw new IllegalArgumentException(\"denominator cannot be zero\");",
+      "if (denominator != 0) throw new IllegalArgumentException(\"denominator cannot be zero\");",
+      "if (denominator == 1) throw new IllegalArgumentException(\"denominator cannot be zero\");",
+      "if (denominator == 2) throw new IllegalArgumentException(\"denominator cannot be zero\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Returning a transformed array",
+    "code": "static int[] doubled(int[] values) {\n    int[] result = new int[values.length];\n    for (int i = 0; i < values.length; i++) result[i] = values[i] * 2;\n    return result;\n}\nSystem.out.println(doubled(new int[]{1, 2})[1]);",
+    "question": "Return a new array containing doubled values. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < values.length; i++) result[i] = values[i] * 2;",
+      "for (int i = 0; i < values.length; i--) result[i] = values[i] * 2;",
+      "for (int i = 0; i < values.length; i++) result[i] = values[i] / 2;",
+      "for (int i = 0; i > values.length; i++) result[i] = values[i] * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Recursive power",
+    "code": "static int power(int base, int exp) {\n    if (exp == 0) return 1;\n    return base * power(base, exp - 1);\n}\nSystem.out.println(power(5, 8));",
+    "question": "Calculate a non-negative integer power recursively. Repair the missing line in the displayed code.",
+    "options": [
+      "return base * power(base, exp - 1);",
+      "return base * power(base, exp + 1);",
+      "return base / power(base, exp - 1);",
+      "return base * power(base, exp - 2);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Method with multiple guards",
+    "code": "static String levelName(int level) {\n    if (level < 1) return \"Invalid\";\n    if (level == 1) return \"Beginner\";\n    if (level == 2) return \"Explorer\";\n    return \"Detective\";\n}\nSystem.out.println(levelName(6));",
+    "question": "Use guard clauses to map a level to a name. Repair the missing line in the displayed code.",
+    "options": [
+      "if (level < 1) return \"Invalid\";",
+      "if (level > 1) return \"Invalid\";",
+      "if (level < 2) return \"Invalid\";",
+      "if (level < 0) return \"Invalid\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 7,
+    "chapterName": "Method Mountain",
+    "difficulty": "Hard",
+    "subtopic": "Recursion with progress",
+    "code": "static int countDown(int n) {\n    if (n <= 0) return 0;\n    return 1 + countDown(n - 1);\n}\nSystem.out.println(countDown(7));",
+    "question": "Ensure a recursive call moves toward its base case. Repair the missing line in the displayed code.",
+    "options": [
+      "return 1 + countDown(n - 1);",
+      "return 1 - countDown(n - 1);",
+      "return 1 + countDown(n + 1);",
+      "return 2 + countDown(n - 1);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

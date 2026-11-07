@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="screenRoot" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="org.javajungle.WelcomeController" styleClass="app-root, welcome-root">
+    <ImageView fx:id="welcomeBackground" preserveRatio="false" smooth="true" mouseTransparent="true" />
+    <Region fx:id="welcomeOverlay" styleClass="welcome-jungle-overlay" mouseTransparent="true" visible="false" />
+    <Region fx:id="cardBackdrop" styleClass="welcome-card-backdrop" mouseTransparent="true" visible="false" managed="false" />
+    <Region fx:id="captionMask" styleClass="welcome-caption-mask" StackPane.alignment="BOTTOM_CENTER" mouseTransparent="true" visible="false" />
+
+    <HBox fx:id="landingHotspots" styleClass="landing-hotspots" alignment="CENTER" spacing="44" visible="false" managed="false">
+        <Button text="Enter the jungle" accessibleText="Enter the jungle" onAction="#handleEnterJungle" styleClass="landing-hotspot" />
+        <Button text="Exit the game" accessibleText="Exit the game" onAction="#handleExitGame" styleClass="landing-hotspot" />
+    </HBox>
+
+    <VBox fx:id="namePanel" styleClass="welcome-panel name-panel" spacing="14" alignment="CENTER_LEFT" visible="false" managed="false">
+        <HBox alignment="CENTER_LEFT" maxWidth="Infinity">
+            <Button text="←  BACK" onAction="#handleBackFromNameEntry" styleClass="welcome-button, welcome-button-secondary, welcome-back-button" />
+        </HBox>
+        <Label text="NEW PLAYER" styleClass="welcome-kicker" />
+        <Label text="Who Goes There?" styleClass="welcome-panel-title" />
+        <Label text="Give the jungle your name, detective." styleClass="welcome-copy" />
+        <TextField fx:id="nameField" promptText="Type your name" styleClass="welcome-name-field" maxWidth="Infinity" />
+        <Label text="CHOOSE YOUR DETECTIVE" styleClass="welcome-field-label" />
+        <HBox fx:id="avatarChoices" styleClass="avatar-choices" alignment="CENTER_LEFT" />
+        <Label fx:id="selectedAvatarLabel" text="Selected detective: Monkey" styleClass="welcome-copy" />
+        <Label fx:id="nameErrorLabel" styleClass="welcome-error" wrapText="true" />
+        <Button fx:id="startHuntButton" text="≫  START THE HUNT" onAction="#handleStartHunt" styleClass="welcome-button, welcome-button-primary" prefHeight="52" />
+    </VBox>
+
+    <VBox fx:id="returningPanel" styleClass="welcome-panel returning-panel" spacing="16" alignment="CENTER" visible="false" managed="false">
+        <HBox alignment="CENTER_LEFT" maxWidth="Infinity" styleClass="returning-back-row">
+            <Button text="←  BACK" onAction="#handleBackFromReturning" styleClass="welcome-button, welcome-button-secondary, welcome-back-button" />
+        </HBox>
+        <Label text="RETURNING PLAYER" styleClass="welcome-kicker" />
+        <Label text="Welcome Back," styleClass="welcome-overline" />
+        <StackPane styleClass="returning-avatar-frame" maxWidth="164" maxHeight="126">
+            <ImageView fx:id="returningAvatarImage" fitWidth="156" fitHeight="118" preserveRatio="true" smooth="true" />
+        </StackPane>
+        <Label fx:id="returningNameLabel" text="Detective" styleClass="welcome-panel-title" />
+        <HBox fx:id="returningStats" styleClass="welcome-stats" spacing="10" alignment="CENTER">
+            <VBox styleClass="welcome-stat" HBox.hgrow="ALWAYS" alignment="CENTER" spacing="4">
+                <Label fx:id="returningLevelLabel" text="LV 1" styleClass="welcome-stat-value" />
+                <Label text="RANK" styleClass="welcome-stat-label" />
+            </VBox>
+            <VBox styleClass="welcome-stat" HBox.hgrow="ALWAYS" alignment="CENTER" spacing="4">
+                <Label fx:id="returningXpLabel" text="0" styleClass="welcome-stat-value, welcome-stat-xp" />
+                <Label text="XP" styleClass="welcome-stat-label" />
+            </VBox>
+            <VBox styleClass="welcome-stat" HBox.hgrow="ALWAYS" alignment="CENTER" spacing="4">
+                <Label fx:id="returningCasesLabel" text="0" styleClass="welcome-stat-value" />
+                <Label text="CASES SOLVED" styleClass="welcome-stat-label" />
+            </VBox>
+        </HBox>
+        <HBox fx:id="returningActions" spacing="12" alignment="CENTER" styleClass="welcome-actions">
+            <Button fx:id="continueButton" text="≫  CONTINUE THE HUNT" onAction="#handleContinue" styleClass="welcome-button, welcome-button-primary" prefWidth="200" prefHeight="96" wrapText="true" alignment="CENTER" />
+            <Button fx:id="newPlayerButton" text="♙  NEW PLAYER" onAction="#handleNewPlayer" styleClass="welcome-button, welcome-button-secondary" prefWidth="150" prefHeight="96" wrapText="true" alignment="CENTER" />
+        </HBox>
+    </VBox>
+
+    <VBox fx:id="playerSelectPanel" styleClass="welcome-panel player-select-panel" spacing="14" alignment="CENTER" visible="false" managed="false">
+        <Label text="SAVED DETECTIVES" styleClass="welcome-kicker" />
+        <Label text="Choose a player" styleClass="welcome-panel-title" />
+        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED" styleClass="player-list-scroll" VBox.vgrow="ALWAYS">
+            <content><VBox fx:id="playerChoices" spacing="8" alignment="CENTER" /></content>
+        </ScrollPane>
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="＋  NEW PLAYER" onAction="#handleNewPlayer" styleClass="welcome-button, welcome-button-primary" prefWidth="180" prefHeight="46" />
+            <Button text="←  BACK" onAction="#handleBackToWelcome" styleClass="welcome-button, welcome-button-secondary" prefWidth="124" prefHeight="46" />
+        </HBox>
+    </VBox>
+</StackPane>

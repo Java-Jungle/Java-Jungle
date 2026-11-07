@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.javajungle.VineFrame?>
+<?import org.javajungle.BinaryRain?>
+
+<BorderPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.javajungle.CaseSearchController" styleClass="app-root">
+    <center>
+        <StackPane styleClass="screen-frame">
+            <BinaryRain mouseTransparent="true" />
+            <VineFrame mouseTransparent="true" prefWidth="1360" prefHeight="760" />
+            <VBox styleClass="terminal" spacing="18">
+                <StackPane.margin><Insets top="34" right="34" bottom="34" left="34" /></StackPane.margin>
+                <padding><Insets top="26" right="34" bottom="26" left="34" /></padding>
+                <HBox styleClass="brand-bar" alignment="CENTER_LEFT" spacing="12">
+                    <Label text="JAVA JUNGLE" styleClass="game-title" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Label fx:id="caseCountLabel" text="CASE SEARCH // FILES FOUND" styleClass="mode-label" />
+                    <Label fx:id="heartsLabel" text="♥  ♥  ♥" styleClass="hearts" />
+                    <Label fx:id="xpLabel" text="0 XP" styleClass="accent-green" />
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="12">
+                    <VBox spacing="5">
+                        <Label text="SEARCH CASES" styleClass="screen-title" />
+                        <Label text="Choose a dossier to open in Story Mode." styleClass="muted" />
+                    </VBox>
+                    <Region HBox.hgrow="ALWAYS" />
+                    <TextField fx:id="searchField" promptText="Search case files..." styleClass="search-field" />
+                    <ComboBox fx:id="difficultyFilter" styleClass="difficulty-filter" />
+                </HBox>
+                <ScrollPane fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED" styleClass="case-scroll" VBox.vgrow="ALWAYS">
+                    <content>
+                        <VBox fx:id="caseCards" styleClass="case-list" spacing="14" />
+                    </content>
+                </ScrollPane>
+                <HBox styleClass="footer" alignment="CENTER_LEFT" spacing="12">
+                    <Button text="← MODES" onAction="#handleModes" styleClass="button-quiet" />
+                    <Button text="← PROFILE" onAction="#handleProfile" styleClass="button-quiet" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Label text="FILTER BY DIFFICULTY  //  EASY · MEDIUM · HARD" styleClass="binary-motif" />
+                </HBox>
+            </VBox>
+        </StackPane>
+    </center>
+</BorderPane>

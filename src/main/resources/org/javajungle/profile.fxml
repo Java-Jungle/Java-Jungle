@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.javajungle.VineFrame?>
+<?import org.javajungle.BinaryRain?>
+
+<BorderPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.javajungle.ProfileController" styleClass="app-root">
+    <center>
+        <StackPane styleClass="screen-frame">
+            <BinaryRain mouseTransparent="true" />
+            <VineFrame mouseTransparent="true" prefWidth="1360" prefHeight="760" />
+            <VBox styleClass="terminal, profile-terminal" spacing="14">
+                <StackPane.margin><Insets top="20" right="26" bottom="20" left="26" /></StackPane.margin>
+                <padding><Insets top="18" right="24" bottom="18" left="24" /></padding>
+                <HBox styleClass="brand-bar" alignment="CENTER_LEFT" spacing="12">
+                    <Label text="JAVA JUNGLE" styleClass="game-title" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Label fx:id="levelRankLabel" text="PROFILE // SEEDLING · LV 1" styleClass="mode-label" />
+                    <Label fx:id="heartsLabel" text="♥  ♥  ♥" styleClass="hearts" />
+                    <Label fx:id="xpLabel" text="0 XP" styleClass="accent-green" />
+                </HBox>
+                <VBox spacing="7">
+                    <Label text="DETECTIVE PROFILE" styleClass="screen-title" />
+                    <Label text="Your field record, skills, and equipment." styleClass="muted" />
+                </VBox>
+                <HBox spacing="18" VBox.vgrow="ALWAYS">
+                    <VBox styleClass="profile-card profile-identity" spacing="12" HBox.hgrow="ALWAYS">
+                        <Label text="INVESTIGATOR FILE" styleClass="panel-heading" />
+                        <StackPane fx:id="profileAvatar" styleClass="profile-avatar">
+                            <ImageView fx:id="monkeyImage" StackPane.alignment="CENTER" preserveRatio="true" smooth="true">
+                                <image><Image url="@detective-monkey-reference.png" /></image>
+                            </ImageView>
+                        </StackPane>
+                        <Label fx:id="detectiveNameLabel" text="JUNGLE DETECTIVE" styleClass="profile-name" />
+                        <Label text="Rookie investigator" styleClass="muted" />
+                        <Region VBox.vgrow="ALWAYS" />
+                        <Label text="CASES CLEARED" styleClass="panel-heading" />
+                        <Label fx:id="casesClearedLabel" text="0" styleClass="profile-stat-large" />
+                    </VBox>
+                    <VBox styleClass="profile-card" spacing="12" HBox.hgrow="ALWAYS">
+                        <Label text="SKILL ANALYSIS" styleClass="panel-heading" />
+                        <Label fx:id="chapterOneSkill" text="Chapter 01" styleClass="skill-label" />
+                        <Label fx:id="chapterOnePercent" text="░░░░░░░░░░  0%" styleClass="skill-meter" />
+                        <Label fx:id="chapterTwoSkill" text="Chapter 02" styleClass="skill-label" />
+                        <Label fx:id="chapterTwoPercent" text="░░░░░░░░░░  0%" styleClass="skill-meter" />
+                        <Label fx:id="chapterThreeSkill" text="Chapter 03" styleClass="skill-label" />
+                        <Label fx:id="chapterThreePercent" text="░░░░░░░░░░  0%" styleClass="skill-meter" />
+                        <Region VBox.vgrow="ALWAYS" />
+                        <Label text="RECENT SIGNAL" styleClass="panel-heading" />
+                        <Label fx:id="recentSignalLabel" text="No clues yet. Answer a chapter question to reveal your first skill signal." styleClass="profile-note" wrapText="true" />
+                    </VBox>
+                    <VBox styleClass="profile-card" spacing="12" HBox.hgrow="ALWAYS">
+                        <Label text="CASES YOU'VE OPENED" styleClass="panel-heading" />
+                        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED" styleClass="case-scroll" VBox.vgrow="ALWAYS">
+                            <content><VBox fx:id="activeCases" spacing="10" /></content>
+                        </ScrollPane>
+                        <Region VBox.vgrow="ALWAYS" />
+                        <Label text="CASE FILES READY  //  SELECT TO INVESTIGATE" styleClass="binary-motif" />
+                    </VBox>
+                </HBox>
+                <HBox styleClass="footer" alignment="CENTER_LEFT" spacing="12">
+                    <Button text="← MODES" onAction="#handleModes" styleClass="button-quiet" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Button text="SEARCH CASES  →" onAction="#handleSearchCases" styleClass="button-submit" />
+                </HBox>
+            </VBox>
+        </StackPane>
+    </center>
+</BorderPane>

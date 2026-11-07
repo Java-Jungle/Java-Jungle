@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Null reference",
+    "code": "String name = null;\nSystem.out.println(name == null);",
+    "question": "Check whether a reference is null. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(name == null);",
+      "System.out.println(name != null);",
+      "System.out.println(nameValue == null);",
+      "System.out.println(nameCount == null);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Object initialization",
+    "code": "String name = \"Leo\";\nSystem.out.println(name.length());",
+    "question": "Initialize a reference before calling its methods. Repair the missing line in the displayed code.",
+    "options": [
+      "String name = \"Leo\";",
+      "String name == \"Leo\";",
+      "String name = \"length\";",
+      "String name = \"LeoCount\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Null check",
+    "code": "String input = \"Mulo\";\nif (input != null) {\n    System.out.println(input.length());\n}",
+    "question": "Check a reference before using it. Repair the missing line in the displayed code.",
+    "options": [
+      "if (input != null) {",
+      "if (input == null) {",
+      "if (Mulo != null) {",
+      "if (inputCount != null) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Safe default",
+    "code": "String name = null;\nString display = name == null ? \"Guest\" : name;\nSystem.out.println(display);",
+    "question": "Use a default name when the reference is null. Repair the missing line in the displayed code.",
+    "options": [
+      "String display = name == null ? \"Guest\" : name;",
+      "String display = name != null ? \"Guest\" : name;",
+      "String display == name == null ? \"Guest\" : name;",
+      "String display = nameValue == null ? \"Guest\" : name;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Object reference",
+    "code": "java.util.ArrayList<String> names = new java.util.ArrayList<>();\nnames.add(\"Leo\");\nSystem.out.println(names.size());",
+    "question": "Create a list before adding an item. Repair the missing line in the displayed code.",
+    "options": [
+      "java.util.ArrayList<String> names = new java.util.ArrayList<>();",
+      "java.util.ArrayList<String> names == new java.util.ArrayList<>();",
+      "java.util.add<String> names = new java.util.ArrayList<>();",
+      "java.util.ArrayListCount<String> names = new java.util.ArrayList<>();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Null assignment",
+    "code": "String result = \"Key\";\nresult = null;\nSystem.out.println(result == null);",
+    "question": "Set a reference to null and test it. Repair the missing line in the displayed code.",
+    "options": [
+      "result = null;",
+      "result == null;",
+      "Key = null;",
+      "resultCount = null;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Conditional method call",
+    "code": "String word = \"Code\";\nif (word != null) System.out.println(word.toUpperCase());",
+    "question": "Call toUpperCase only when the reference is not null. Repair the missing line in the displayed code.",
+    "options": [
+      "if (word != null) System.out.println(word.toUpperCase());",
+      "if (word == null) System.out.println(word.toUpperCase());",
+      "if (word != null) System.out.println(word.Code());",
+      "if (word != null) System.out.println(word.toUpperCaseCount());"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Nullable object field",
+    "code": "class Note { String text; }\nNote note = new Note();\nnote.text = \"Clue\";\nSystem.out.println(note.text);",
+    "question": "Create an object before accessing its field. Repair the missing line in the displayed code.",
+    "options": [
+      "Note note = new Note();",
+      "Note note == new Note();",
+      "text note = new Note();",
+      "NoteCount note = new Note();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Empty versus null",
+    "code": "String input = \"\";\nSystem.out.println(input != null && input.isEmpty());",
+    "question": "Distinguish an empty string from a null reference. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(input != null && input.isEmpty());",
+      "System.out.println(input == null && input.isEmpty());",
+      "System.out.println(input != null && input.isEmptyValue());",
+      "System.out.println(input != null && input.isEmptyCount());"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Easy",
+    "subtopic": "Null list check",
+    "code": "java.util.ArrayList<Integer> items = new java.util.ArrayList<>();\nif (items != null) System.out.println(items.size());",
+    "question": "Check a list reference before accessing its size. Repair the missing line in the displayed code.",
+    "options": [
+      "if (items != null) System.out.println(items.size());",
+      "if (items == null) System.out.println(items.size());",
+      "if (items != null) System.out.println(items.java());",
+      "if (items != null) System.out.println(items.sizeCount());"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Guard before method call",
+    "code": "String clue = \"Java\";\nif (clue != null && clue.length() > 3) {\n    System.out.println(clue.substring(0, 3));\n}",
+    "question": "Check null and length before extracting a substring. Repair the missing line in the displayed code.",
+    "options": [
+      "if (clue != null && clue.length() > 3) {",
+      "if (clue == null && clue.length() > 3) {",
+      "if (clue != null && clue.length() < 3) {",
+      "if (clue != null && clue.length() > 4) {"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Null-safe equality",
+    "code": "String input = \"Leo\";\nboolean match = \"OPEN\".equals(input);\nSystem.out.println(match);",
+    "question": "Compare safely when the input may be null. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean match = \"OPEN\".equals(input);",
+      "boolean match == \"OPEN\".equals(input);",
+      "boolean match = \"OPEN\".equals(Leo);",
+      "boolean match = \"OPEN\".equals(inputCount);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Fallback value",
+    "code": "String nickname = null;\nString shown = nickname != null ? nickname : \"Detective\";\nSystem.out.println(shown);",
+    "question": "Choose a fallback when no nickname is supplied. Repair the missing line in the displayed code.",
+    "options": [
+      "String shown = nickname != null ? nickname : \"Detective\";",
+      "String shown = nickname == null ? nickname : \"Detective\";",
+      "String shown == nickname != null ? nickname : \"Detective\";",
+      "String shown = nickname != null ? nickname : \"DetectiveValue\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Check object before field",
+    "code": "class Player { String name = \"Leo\"; }\nPlayer player = new Player();\nif (player != null) System.out.println(player.name);",
+    "question": "Verify an object reference before reading its field. Repair the missing line in the displayed code.",
+    "options": [
+      "if (player != null) System.out.println(player.name);",
+      "if (player == null) System.out.println(player.name);",
+      "if (player != null) System.out.println(player.Player);",
+      "if (player != null) System.out.println(player.nameCount);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Optional list reference",
+    "code": "java.util.List<String> clues = null;\nif (clues == null) clues = new java.util.ArrayList<>();\nclues.add(\"Footprint\");\nSystem.out.println(clues.size());",
+    "question": "Initialize a list when the original reference is null. Repair the missing line in the displayed code.",
+    "options": [
+      "if (clues == null) clues = new java.util.ArrayList<>();",
+      "if (clues != null) clues = new java.util.ArrayList<>();",
+      "if (clues == null) clues == new java.util.ArrayList<>();",
+      "if (clues == null) clues = new java.util.List<>();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Null and empty checks",
+    "code": "String code = \"Key\";\nif (code != null && !code.isEmpty()) System.out.println(\"Provided\");",
+    "question": "Ensure text exists and is not empty. Repair the missing line in the displayed code.",
+    "options": [
+      "if (code != null && !code.isEmpty()) System.out.println(\"Provided\");",
+      "if (code == null && !code.isEmpty()) System.out.println(\"Provided\");",
+      "if (code != null && !code.isEmpty()) System.out.println(\"Key\");",
+      "if (code != null && !code.isEmpty()) System.out.println(\"ProvidedCount\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Returning null",
+    "code": "static String findName(boolean found) {\n    if (found) return \"Mia\";\n    return null;\n}\nString result = findName(false);\nSystem.out.println(result == null);",
+    "question": "Handle a method that may return null. Repair the missing line in the displayed code.",
+    "options": [
+      "return null;",
+      "return null + 1;",
+      "return null - 1;",
+      "return null * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Null-safe list access",
+    "code": "java.util.List<Integer> values = null;\nint size = values == null ? 0 : values.size();\nSystem.out.println(size);",
+    "question": "Avoid calling size on a null list. Repair the missing line in the displayed code.",
+    "options": [
+      "int size = values == null ? 0 : values.size();",
+      "int size = values != null ? 0 : values.size();",
+      "int size == values == null ? 0 : values.size();",
+      "int size = values == null ? 1 : values.size();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Reference reassignment",
+    "code": "String message = \"Mia\";\nmessage = null;\nif (message == null) message = \"No clue\";\nSystem.out.println(message);",
+    "question": "Replace a null reference with a fallback message. Repair the missing line in the displayed code.",
+    "options": [
+      "if (message == null) message = \"No clue\";",
+      "if (message != null) message = \"No clue\";",
+      "if (message == null) message == \"No clue\";",
+      "if (message == null) message = \"No Mia\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Medium",
+    "subtopic": "Method argument check",
+    "code": "static int lengthOf(String text) {\n    if (text == null) return 0;\n    return text.length();\n}\nSystem.out.println(lengthOf(\"Quest\"));",
+    "question": "Return a safe result for a null argument. Repair the missing line in the displayed code.",
+    "options": [
+      "if (text == null) return 0;",
+      "if (text != null) return 0;",
+      "if (text == null) return 1;",
+      "if (text == null) return 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Chained reference safety",
+    "code": "class Profile { String name; }\nProfile profile = null;\nString display = profile == null || profile.name == null ? \"Unknown\" : profile.name;\nSystem.out.println(display);",
+    "question": "Avoid dereferencing a null profile or name. Repair the missing line in the displayed code.",
+    "options": [
+      "String display = profile == null || profile.name == null ? \"Unknown\" : profile.name;",
+      "String display = profile != null || profile.name == null ? \"Unknown\" : profile.name;",
+      "String display == profile == null || profile.name == null ? \"Unknown\" : profile.name;",
+      "String display = profile == null || profile.Profile == null ? \"Unknown\" : profile.name;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Null-safe method contract",
+    "code": "static String normalize(String input) {\n    if (input == null) return \"\";\n    return input.trim().toLowerCase();\n}\nSystem.out.println(normalize(null));",
+    "question": "Return a safe string when the argument is null. Repair the missing line in the displayed code.",
+    "options": [
+      "if (input == null) return \"\";",
+      "if (input != null) return \"\";",
+      "if (normalize == null) return \"\";",
+      "if (inputCount == null) return \"\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Initialize before use",
+    "code": "java.util.List<String> items = null;\nitems = new java.util.ArrayList<>();\nitems.add(\"Key\");\nSystem.out.println(items.get(0));",
+    "question": "Assign a real list object before calling add. Repair the missing line in the displayed code.",
+    "options": [
+      "items = new java.util.ArrayList<>();",
+      "items == new java.util.ArrayList<>();",
+      "items = new java.util.List<>();",
+      "items = new java.util.ArrayListCount<>();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Null element in list",
+    "code": "java.util.List<String> names = new java.util.ArrayList<>();\nnames.add(null);\nfor (String name : names) System.out.println(name == null ? \"(missing)\" : name.toUpperCase());",
+    "question": "Handle null elements while processing a list. Repair the missing line in the displayed code.",
+    "options": [
+      "for (String name : names) System.out.println(name == null ? \"(missing)\" : name.toUpperCase());",
+      "for (String name : names) System.out.println(name != null ? \"(missing)\" : name.toUpperCase());",
+      "for (String name : names) System.out.println(name == null ? \"(missing)\" : name.java());",
+      "for (String name : names) System.out.println(name == null ? \"(missing)\" : name.toUpperCaseCount());"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Safe dereference chain",
+    "code": "class Address { String city; }\nclass User { Address address; }\nUser user = new User();\nString city = user.address == null ? \"Unknown\" : user.address.city;\nSystem.out.println(city);",
+    "question": "Check an intermediate reference before accessing its field. Repair the missing line in the displayed code.",
+    "options": [
+      "String city = user.address == null ? \"Unknown\" : user.address.city;",
+      "String city = user.address != null ? \"Unknown\" : user.address.city;",
+      "String city == user.address == null ? \"Unknown\" : user.address.city;",
+      "String Address = user.address == null ? \"Unknown\" : user.address.city;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Null return from lookup",
+    "code": "static String lookup(int id) { return id == 1 ? \"Found\" : null; }\nString value = lookup(2);\nif (value != null) System.out.println(value.length());\nelse System.out.println(\"Missing\");",
+    "question": "Handle a lookup result that may be null. Repair the missing line in the displayed code.",
+    "options": [
+      "if (value != null) System.out.println(value.length());",
+      "if (value == null) System.out.println(value.length());",
+      "if (value != null) System.out.println(value.lookup());",
+      "if (value != null) System.out.println(value.lengthCount());"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Objects require initialization",
+    "code": "class Box { int size; }\nBox box = null;\nbox = new Box();\nbox.size = 4;\nSystem.out.println(box.size);",
+    "question": "Initialize the object before assigning its field. Repair the missing line in the displayed code.",
+    "options": [
+      "box = new Box();",
+      "box == new Box();",
+      "box = new size();",
+      "box = new BoxCount();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Safe comparison",
+    "code": "String expected = \"KEY\";\nString actual = null;\nboolean matches = expected.equals(actual);\nSystem.out.println(matches);",
+    "question": "Use a non-null receiver for a String equality check. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean matches = expected.equals(actual);",
+      "boolean matches == expected.equals(actual);",
+      "boolean matches = expected.equals(KEY);",
+      "boolean matches = expected.equals(actualCount);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Null in conditional logic",
+    "code": "String command = null;\nif (command != null && command.equalsIgnoreCase(\"exit\")) System.out.println(\"Exit\");\nelse System.out.println(\"Continue\");",
+    "question": "Use short-circuit evaluation to guard a possibly null reference. Repair the missing line in the displayed code.",
+    "options": [
+      "if (command != null && command.equalsIgnoreCase(\"exit\")) System.out.println(\"Exit\");",
+      "if (command == null && command.equalsIgnoreCase(\"exit\")) System.out.println(\"Exit\");",
+      "if (command != null && command.equalsIgnoreCase(\"exit\")) System.out.println(\"Continue\");",
+      "if (command != null && command.equalsIgnoreCase(\"exit\")) System.out.println(\"ExitCount\");"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 10,
+    "chapterName": "Null Pointer Marsh",
+    "difficulty": "Hard",
+    "subtopic": "Nullable field validation",
+    "code": "class Record { String value; }\nRecord record = new Record();\nif (record.value == null) record.value = \"Unknown\";\nSystem.out.println(record.value.toUpperCase());",
+    "question": "Assign a fallback before invoking a method on a nullable field. Repair the missing line in the displayed code.",
+    "options": [
+      "if (record.value == null) record.value = \"Unknown\";",
+      "if (record.value != null) record.value = \"Unknown\";",
+      "if (record.value == null) record.value == \"Unknown\";",
+      "if (record.value == null) record.value = \"Record\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

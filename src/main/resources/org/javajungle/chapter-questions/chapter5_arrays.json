@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Array declaration",
+    "code": "int[] scores = { 2, 3, 4 };\nSystem.out.println(scores[0]);",
+    "question": "Create an integer array and print its first element. Repair the missing line in the displayed code.",
+    "options": [
+      "int[] scores = { 2, 3, 4 };",
+      "int[] scores == { 2, 3, 4 };",
+      "int[] scores = { 3, 3, 4 };",
+      "int[] scores = { 1, 3, 4 };"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Array indexing",
+    "code": "int[] values = { 3, 5, 7 };\nSystem.out.println(values[1]);",
+    "question": "Access the second element of an array. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(values[1]);",
+      "System.out.println(values[2]);",
+      "System.out.println(values[0]);",
+      "System.out.println(values[3]);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Array length",
+    "code": "int[] values = { 4, 7, 4 };\nSystem.out.println(values.length);",
+    "question": "Print the number of elements in the array. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(values.length);",
+      "System.out.println(values.lengthValue);",
+      "System.out.println(values.lengthCount);",
+      "System.out.println(values.length) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Updating an element",
+    "code": "int[] scores = { 5, 9, 7 };\nscores[1] = 13;\nSystem.out.println(scores[1]);",
+    "question": "Replace the second score with a new value. Repair the missing line in the displayed code.",
+    "options": [
+      "scores[1] = 13;",
+      "scores[1] == 13;",
+      "scores[2] = 13;",
+      "scores[0] = 13;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Loop through an array",
+    "code": "int[] values = { 6, 4, 4 };\nfor (int i = 0; i < values.length; i++) {\n    System.out.println(values[i]);\n}",
+    "question": "Print each array element using an index. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(values[i]);",
+      "System.out.println(values[length]);",
+      "System.out.println(values[iCount]);",
+      "System.out.println(values[i]) + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Enhanced for loop",
+    "code": "int[] values = { 7, 6, 7 };\nfor (int value : values) {\n    System.out.println(value);\n}",
+    "question": "Print every value using an enhanced for loop. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : values) {",
+      "for (int value : valuesValue) {",
+      "for (int value : valuesCount) {",
+      "for (int value : values) { + 1"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Array sum",
+    "code": "int[] values = { 8, 8, 4 };\nint total = 0;\nfor (int value : values) total += value;\nSystem.out.println(total);",
+    "question": "Calculate the sum of all array values. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : values) total += value;",
+      "for (int valueValue : values) total += value;",
+      "for (int valueCount : values) total += value;",
+      "for (int value : values) total += value + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Last element",
+    "code": "int[] values = { 9, 3, 7 };\nSystem.out.println(values[values.length - 1]);",
+    "question": "Access the final element safely. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(values[values.length - 1]);",
+      "System.out.println(values[values.length + 1]);",
+      "System.out.println(values[values.length - 2]);",
+      "System.out.println(values[values.length - 0]);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Array initialization",
+    "code": "String[] names = { \"Leo\", \"Mia\", \"Kai\" };\nSystem.out.println(names[2]);",
+    "question": "Store several names and print the third one. Repair the missing line in the displayed code.",
+    "options": [
+      "String[] names = { \"Leo\", \"Mia\", \"Kai\" };",
+      "String[] names == { \"Leo\", \"Mia\", \"Kai\" };",
+      "String[] names = { \"Leo\", \"Mia\", \"KaiValue\" };",
+      "String[] names = { \"Leo\", \"Mia\", \"KaiCount\" };"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Easy",
+    "subtopic": "Finding maximum",
+    "code": "int[] values = { 3, 7, 7 };\nint max = values[0];\nfor (int value : values) if (value > max) max = value;\nSystem.out.println(max);",
+    "question": "Find the largest value in the array. Repair the missing line in the displayed code.",
+    "options": [
+      "if (value > max) max = value;",
+      "if (value < max) max = value;",
+      "if (value > max) max == value;",
+      "if (values > max) max = value;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Array average",
+    "code": "int[] marks = { 4, 9, 4 };\nint total = 0;\nfor (int mark : marks) total += mark;\ndouble average = (double) total / marks.length;\nSystem.out.println(average);",
+    "question": "Calculate the average mark without integer division. Repair the missing line in the displayed code.",
+    "options": [
+      "double average = (double) total / marks.length;",
+      "double average = (double) total * marks.length;",
+      "double average == (double) total / marks.length;",
+      "double average = (double) total / marks.mark;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Counting matches",
+    "code": "int[] values = { 5, 4, 7, 21 };\nint count = 0;\nfor (int value : values) if (value > 5) count++;\nSystem.out.println(count);",
+    "question": "Count elements greater than five. Repair the missing line in the displayed code.",
+    "options": [
+      "if (value > 5) count++;",
+      "if (value > 5) count--;",
+      "if (value < 5) count++;",
+      "if (value > 6) count++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Searching an array",
+    "code": "int[] values = { 6, 6, 4 };\nint target = 22;\nboolean found = false;\nfor (int value : values) if (value == target) found = true;\nSystem.out.println(found);",
+    "question": "Check whether the target appears in the array. Repair the missing line in the displayed code.",
+    "options": [
+      "if (value == target) found = true;",
+      "if (value != target) found = true;",
+      "if (value == target) found == true;",
+      "if (value == target) found = false;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Copying an element",
+    "code": "int[] source = { 7, 8, 7 };\nint[] copy = new int[source.length];\nfor (int i = 0; i < source.length; i++) copy[i] = source[i];\nSystem.out.println(copy[1]);",
+    "question": "Copy each source element into a new array. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < source.length; i++) copy[i] = source[i];",
+      "for (int i = 0; i < source.length; i--) copy[i] = source[i];",
+      "for (int i = 0; i > source.length; i++) copy[i] = source[i];",
+      "for (int i == 0; i < source.length; i++) copy[i] = source[i];"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Reverse index traversal",
+    "code": "int[] values = { 8, 3, 4 };\nfor (int i = values.length - 1; i >= 0; i--) System.out.println(values[i]);",
+    "question": "Print the array in reverse order. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = values.length - 1; i >= 0; i--) System.out.println(values[i]);",
+      "for (int i = values.length - 1; i < 0; i--) System.out.println(values[i]);",
+      "for (int i = values.length - 1; i >= 0; i++) System.out.println(values[i]);",
+      "for (int i = values.length + 1; i >= 0; i--) System.out.println(values[i]);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Two-dimensional arrays",
+    "code": "int[][] grid = { { 9, 5 }, { 7, 25 } };\nSystem.out.println(grid[1][0]);",
+    "question": "Access a value from a two-dimensional array. Repair the missing line in the displayed code.",
+    "options": [
+      "System.out.println(grid[1][0]);",
+      "System.out.println(grid[2][0]);",
+      "System.out.println(grid[0][0]);",
+      "System.out.println(grid[3][0]);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Updating array values",
+    "code": "int[] values = { 2, 7, 4 };\nfor (int i = 0; i < values.length; i++) values[i] *= 2;\nSystem.out.println(values[0]);",
+    "question": "Double every element in the array. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < values.length; i++) values[i] *= 2;",
+      "for (int i = 0; i < values.length; i--) values[i] *= 2;",
+      "for (int i = 0; i > values.length; i++) values[i] *= 2;",
+      "for (int i == 0; i < values.length; i++) values[i] *= 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Minimum value",
+    "code": "int[] values = { 3, 9, 7 };\nint min = values[0];\nfor (int value : values) if (value < min) min = value;\nSystem.out.println(min);",
+    "question": "Find the smallest array value. Repair the missing line in the displayed code.",
+    "options": [
+      "if (value < min) min = value;",
+      "if (value > min) min = value;",
+      "if (value < min) min == value;",
+      "if (values < min) min = value;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Array boundary",
+    "code": "int[] values = { 4, 4, 4 };\nint index = values.length - 1;\nSystem.out.println(values[index]);",
+    "question": "Calculate the last valid array index. Repair the missing line in the displayed code.",
+    "options": [
+      "int index = values.length - 1;",
+      "int index = values.length + 1;",
+      "int index == values.length - 1;",
+      "int index = values.length - 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Medium",
+    "subtopic": "Parallel arrays",
+    "code": "String[] names = { \"Leo\", \"Mia\", \"Kai\" };\nint[] points = { 5, 6, 7 };\nfor (int i = 0; i < names.length; i++) System.out.println(names[i] + \":\" + points[i]);",
+    "question": "Match each name with its corresponding points value. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < names.length; i++) System.out.println(names[i] + \":\" + points[i]);",
+      "for (int i = 0; i < names.length; i--) System.out.println(names[i] + \":\" + points[i]);",
+      "for (int i = 0; i < names.length; i++) System.out.println(names[i] - \":\" + points[i]);",
+      "for (int i = 0; i > names.length; i++) System.out.println(names[i] + \":\" + points[i]);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Linear search index",
+    "code": "int[] values = { 6, 8, 4, 13 };\nint target = 8;\nint index = -1;\nfor (int i = 0; i < values.length; i++) {\n    if (values[i] == target) { index = i; break; }\n}\nSystem.out.println(index);",
+    "question": "Return the first index where the target appears. Repair the missing line in the displayed code.",
+    "options": [
+      "if (values[i] == target) { index = i; break; }",
+      "if (values[i] != target) { index = i; break; }",
+      "if (values[i] == target) { index == i; break; }",
+      "if (values[length] == target) { index = i; break; }"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Shift array elements",
+    "code": "int[] values = { 7, 3, 7, 14 };\nfor (int i = 0; i < values.length - 1; i++) values[i] = values[i + 1];\nvalues[values.length - 1] = 0;\nSystem.out.println(values[0]);",
+    "question": "Shift every element one position to the left. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < values.length - 1; i++) values[i] = values[i + 1];",
+      "for (int i = 0; i < values.length - 1; i--) values[i] = values[i + 1];",
+      "for (int i = 0; i < values.length - 1; i++) values[i] = values[i - 1];",
+      "for (int i = 0; i < values.length + 1; i++) values[i] = values[i + 1];"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Second largest value",
+    "code": "int[] values = { 8, 5, 4, 15 };\nint largest = Integer.MIN_VALUE;\nint second = Integer.MIN_VALUE;\nfor (int value : values) {\n    if (value > largest) { second = largest; largest = value; }\n    else if (value > second && value < largest) second = value;\n}\nSystem.out.println(second);",
+    "question": "Track the largest and second-largest distinct values. Repair the missing line in the displayed code.",
+    "options": [
+      "else if (value > second && value < largest) second = value;",
+      "else if (value < second && value < largest) second = value;",
+      "else if (value > second && value > largest) second = value;",
+      "else if (value > second && value < largest) second == value;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Matrix row sum",
+    "code": "int[][] matrix = { { 9, 7 }, { 7, 16 } };\nint total = 0;\nfor (int value : matrix[1]) total += value;\nSystem.out.println(total);",
+    "question": "Calculate the sum of the second row. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : matrix[1]) total += value;",
+      "for (int value : matrix[2]) total += value;",
+      "for (int value : matrix[0]) total += value;",
+      "for (int value : matrix[3]) total += value;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Matrix traversal",
+    "code": "int[][] matrix = { { 2, 9 }, { 4, 17 } };\nint total = 0;\nfor (int r = 0; r < matrix.length; r++) {\n    for (int c = 0; c < matrix[r].length; c++) total += matrix[r][c];\n}\nSystem.out.println(total);",
+    "question": "Visit every element of a two-dimensional array. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int c = 0; c < matrix[r].length; c++) total += matrix[r][c];",
+      "for (int c = 0; c < matrix[r].length; c--) total += matrix[r][c];",
+      "for (int c = 0; c > matrix[r].length; c++) total += matrix[r][c];",
+      "for (int c == 0; c < matrix[r].length; c++) total += matrix[r][c];"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Frequency count",
+    "code": "int[] values = { 3, 4, 3, 7, 3 };\nint target = 3;\nint count = 0;\nfor (int value : values) if (value == target) count++;\nSystem.out.println(count);",
+    "question": "Count how often the target occurs. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int value : values) if (value == target) count++;",
+      "for (int value : values) if (value != target) count++;",
+      "for (int value : values) if (value == target) count--;",
+      "for (int value : values) if (value == target) countValue++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Array equality",
+    "code": "int[] first = { 4, 6, 4 };\nint[] second = { 4, 6, 4 };\nboolean same = first.length == second.length;\nfor (int i = 0; i < first.length && same; i++) same = first[i] == second[i];\nSystem.out.println(same);",
+    "question": "Compare two arrays element by element. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = 0; i < first.length && same; i++) same = first[i] == second[i];",
+      "for (int i = 0; i < first.length && same; i++) same = first[i] != second[i];",
+      "for (int i = 0; i < first.length && same; i--) same = first[i] == second[i];",
+      "for (int i = 0; i > first.length && same; i++) same = first[i] == second[i];"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Rotation by one",
+    "code": "int[] values = { 5, 8, 7, 20 };\nint last = values[values.length - 1];\nfor (int i = values.length - 1; i > 0; i--) values[i] = values[i - 1];\nvalues[0] = last;\nSystem.out.println(values[0]);",
+    "question": "Rotate an array one position to the right. Repair the missing line in the displayed code.",
+    "options": [
+      "for (int i = values.length - 1; i > 0; i--) values[i] = values[i - 1];",
+      "for (int i = values.length - 1; i > 0; i++) values[i] = values[i - 1];",
+      "for (int i = values.length + 1; i > 0; i--) values[i] = values[i - 1];",
+      "for (int i = values.length - 1; i < 0; i--) values[i] = values[i - 1];"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Prefix sums",
+    "code": "int[] values = { 6, 3, 4 };\nint running = 0;\nfor (int i = 0; i < values.length; i++) {\n    running += values[i];\n    values[i] = running;\n}\nSystem.out.println(values[2]);",
+    "question": "Replace each element with the sum of all values up to that index. Repair the missing line in the displayed code.",
+    "options": [
+      "running += values[i];",
+      "running += values[length];",
+      "running += values[iCount];",
+      "running += values[i] + 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 5,
+    "chapterName": "Array Adventure",
+    "difficulty": "Hard",
+    "subtopic": "Detect sorted array",
+    "code": "int[] values = { 7, 5, 7, 22 };\nboolean sorted = true;\nfor (int i = 1; i < values.length; i++) if (values[i] < values[i - 1]) sorted = false;\nSystem.out.println(sorted);",
+    "question": "Check whether the array is in non-decreasing order. Repair the missing line in the displayed code.",
+    "options": [
+      "if (values[i] < values[i - 1]) sorted = false;",
+      "if (values[i] < values[i + 1]) sorted = false;",
+      "if (values[i] > values[i - 1]) sorted = false;",
+      "if (values[i] < values[i - 1]) sorted == false;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]

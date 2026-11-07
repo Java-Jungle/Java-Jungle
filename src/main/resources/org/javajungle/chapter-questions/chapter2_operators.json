@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Addition and subtraction",
+    "code": "int result = 2 + 3;\nSystem.out.println(result);",
+    "question": "Add two values and print the result. Repair the missing line in the displayed code.",
+    "options": [
+      "int result = 2 + 3;",
+      "int result = 2 - 3;",
+      "int result == 2 + 3;",
+      "int result = 3 + 3;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 2,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Multiplication",
+    "code": "int area = 3 * 5;\nSystem.out.println(area);",
+    "question": "Calculate a rectangular area. Repair the missing line in the displayed code.",
+    "options": [
+      "int area = 3 * 5;",
+      "int area = 3 / 5;",
+      "int area == 3 * 5;",
+      "int area = 4 * 5;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 3,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Remainder operator",
+    "code": "int remainder = 4 % 7;\nSystem.out.println(remainder);",
+    "question": "Find the remainder after integer division. Repair the missing line in the displayed code.",
+    "options": [
+      "int remainder = 4 % 7;",
+      "int remainder == 4 % 7;",
+      "int remainder = 5 % 7;",
+      "int remainder = 3 % 7;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 4,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Comparison operators",
+    "code": "int age = 5;\nboolean adult = age >= 18;\nSystem.out.println(adult);",
+    "question": "Check whether the age is at least 18. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean adult = age >= 18;",
+      "boolean adult = age < 18;",
+      "boolean adult == age >= 18;",
+      "boolean adult = age >= 19;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 5,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Equality operator",
+    "code": "int lives = 6;\nboolean gameOver = lives == 0;\nSystem.out.println(gameOver);",
+    "question": "Check whether no lives remain. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean gameOver = lives == 0;",
+      "boolean gameOver = lives != 0;",
+      "boolean gameOver == lives == 0;",
+      "boolean gameOver = lives == 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 6,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Logical AND",
+    "code": "int age = 7;\nboolean allowed = age >= 18 && age <= 35;\nSystem.out.println(allowed);",
+    "question": "Check whether an age falls within a range. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean allowed = age >= 18 && age <= 35;",
+      "boolean allowed = age < 18 && age <= 35;",
+      "boolean allowed = age >= 18 && age > 35;",
+      "boolean allowed == age >= 18 && age <= 35;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 7,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Logical OR",
+    "code": "boolean hasPass = true;\nboolean hasTicket = false;\nboolean canEnter = hasPass || hasTicket;\nSystem.out.println(canEnter);",
+    "question": "Allow entry when either condition is true. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean canEnter = hasPass || hasTicket;",
+      "boolean canEnter == hasPass || hasTicket;",
+      "boolean canEnter = hasPass || hasTicketValue;",
+      "boolean canEnter = hasPass || hasTicketCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 8,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Unary increment",
+    "code": "int steps = 9;\nsteps++;\nSystem.out.println(steps);",
+    "question": "Increase the step count by one. Repair the missing line in the displayed code.",
+    "options": [
+      "steps++;",
+      "steps--;",
+      "stepsValue++;",
+      "stepsCount++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 9,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Operator precedence",
+    "code": "int result = 2 + 5 * 2;\nSystem.out.println(result);",
+    "question": "Multiply before adding. Repair the missing line in the displayed code.",
+    "options": [
+      "int result = 2 + 5 * 2;",
+      "int result = 2 - 5 * 2;",
+      "int result = 2 + 5 / 2;",
+      "int result == 2 + 5 * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 10,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Easy",
+    "subtopic": "Division",
+    "code": "int result = 3 / 7;\nSystem.out.println(result);",
+    "question": "Divide two integer values. Repair the missing line in the displayed code.",
+    "options": [
+      "int result = 3 / 7;",
+      "int result = 3 * 7;",
+      "int result == 3 / 7;",
+      "int result = 4 / 7;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 11,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Even and odd numbers",
+    "code": "int number = 4;\nboolean even = number % 2 == 0;\nSystem.out.println(even);",
+    "question": "Determine whether a number is even. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean even = number % 2 == 0;",
+      "boolean even = number % 2 != 0;",
+      "boolean even == number % 2 == 0;",
+      "boolean even = number % 3 == 0;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 12,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Combined conditions",
+    "code": "int score = 5;\nboolean pass = score >= 50 && score <= 100;\nSystem.out.println(pass);",
+    "question": "Check that a score is within the passing range. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean pass = score >= 50 && score <= 100;",
+      "boolean pass = score < 50 && score <= 100;",
+      "boolean pass = score >= 50 && score > 100;",
+      "boolean pass == score >= 50 && score <= 100;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 13,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Negation",
+    "code": "boolean isLocked = true;\nboolean isOpen = !isLocked;\nSystem.out.println(isOpen);",
+    "question": "Reverse a boolean state. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean isOpen = !isLocked;",
+      "boolean isOpen == !isLocked;",
+      "boolean isOpen = !isLockedValue;",
+      "boolean isOpen = !isLockedCount;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 14,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Compound arithmetic",
+    "code": "int coins = 7;\ncoins += 8;\ncoins -= 2;\nSystem.out.println(coins);",
+    "question": "Add coins, then subtract a cost. Repair the missing line in the displayed code.",
+    "options": [
+      "coins += 8;",
+      "coins += 9;",
+      "coins += 7;",
+      "coins += 10;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 15,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Precedence with parentheses",
+    "code": "int result = (8 + 3) * 2;\nSystem.out.println(result);",
+    "question": "Add first, then multiply the sum. Repair the missing line in the displayed code.",
+    "options": [
+      "int result = (8 + 3) * 2;",
+      "int result = (8 - 3) * 2;",
+      "int result = (8 + 3) / 2;",
+      "int result == (8 + 3) * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 16,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Ternary operator",
+    "code": "int marks = 9;\nString result = marks >= 50 ? \"Pass\" : \"Retry\";\nSystem.out.println(result);",
+    "question": "Choose a result based on the marks. Repair the missing line in the displayed code.",
+    "options": [
+      "String result = marks >= 50 ? \"Pass\" : \"Retry\";",
+      "String result = marks < 50 ? \"Pass\" : \"Retry\";",
+      "String result == marks >= 50 ? \"Pass\" : \"Retry\";",
+      "String result = marks >= 51 ? \"Pass\" : \"Retry\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 17,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Increment operators",
+    "code": "int count = 2;\nint oldCount = count++;\nSystem.out.println(oldCount + \":\" + count);",
+    "question": "Store the old count before incrementing. Repair the missing line in the displayed code.",
+    "options": [
+      "int oldCount = count++;",
+      "int oldCount = count--;",
+      "int oldCount == count++;",
+      "int oldCount = countValue++;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 18,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Modulus and divisibility",
+    "code": "int value = 3;\nboolean divisible = value % 9 == 0;\nSystem.out.println(divisible);",
+    "question": "Check divisibility using the remainder operator. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean divisible = value % 9 == 0;",
+      "boolean divisible = value % 9 != 0;",
+      "boolean divisible == value % 9 == 0;",
+      "boolean divisible = value % 10 == 0;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 19,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Relational comparison",
+    "code": "double temperature = 11.5;\nboolean hot = temperature > 30.0;\nSystem.out.println(hot);",
+    "question": "Check whether a temperature exceeds a threshold. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean hot = temperature > 30.0;",
+      "boolean hot = temperature < 30.0;",
+      "boolean hot == temperature > 30.0;",
+      "boolean hot = temperature > 31.0;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 20,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Medium",
+    "subtopic": "Assignment versus comparison",
+    "code": "int target = 5;\nboolean reached = target == 6;\nSystem.out.println(reached);",
+    "question": "Compare a target with a required value. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean reached = target == 6;",
+      "boolean reached = target != 6;",
+      "boolean reached == target == 6;",
+      "boolean reached = target == 7;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 21,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Short-circuit AND",
+    "code": "int denominator = 6;\nboolean valid = denominator != 0 && 10 / denominator > 1;\nSystem.out.println(valid);",
+    "question": "Avoid division by zero using short-circuit evaluation. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean valid = denominator != 0 && 10 / denominator > 1;",
+      "boolean valid = denominator == 0 && 10 / denominator > 1;",
+      "boolean valid = denominator != 0 && 10 * denominator > 1;",
+      "boolean valid = denominator != 0 && 10 / denominator < 1;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 22,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Short-circuit OR",
+    "code": "String name = \"Jungle\";\nboolean missing = name == null || name.isEmpty();\nSystem.out.println(missing);",
+    "question": "Check for a null or empty name safely. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean missing = name == null || name.isEmpty();",
+      "boolean missing = name != null || name.isEmpty();",
+      "boolean missing == name == null || name.isEmpty();",
+      "boolean missing = name == null || name.Jungle();"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 23,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Nested precedence",
+    "code": "int result = 8 + 5 * (4 - 1);\nSystem.out.println(result);",
+    "question": "Evaluate multiplication inside a larger expression. Repair the missing line in the displayed code.",
+    "options": [
+      "int result = 8 + 5 * (4 - 1);",
+      "int result = 8 - 5 * (4 - 1);",
+      "int result = 8 + 5 * (4 + 1);",
+      "int result = 8 + 5 / (4 - 1);"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 24,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Range validation",
+    "code": "int score = 9;\nboolean valid = score >= 0 && score <= 100;\nSystem.out.println(valid);",
+    "question": "Validate that a score is between zero and one hundred. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean valid = score >= 0 && score <= 100;",
+      "boolean valid = score < 0 && score <= 100;",
+      "boolean valid = score >= 0 && score > 100;",
+      "boolean valid == score >= 0 && score <= 100;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 25,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Ternary with a condition",
+    "code": "int balance = 2;\nString status = balance >= 0 ? \"Available\" : \"Overdrawn\";\nSystem.out.println(status);",
+    "question": "Choose a label based on the balance. Repair the missing line in the displayed code.",
+    "options": [
+      "String status = balance >= 0 ? \"Available\" : \"Overdrawn\";",
+      "String status = balance < 0 ? \"Available\" : \"Overdrawn\";",
+      "String status == balance >= 0 ? \"Available\" : \"Overdrawn\";",
+      "String status = balance >= 1 ? \"Available\" : \"Overdrawn\";"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 26,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Compound operator order",
+    "code": "int value = 3;\nvalue += 4 * 2;\nvalue %= 7;\nSystem.out.println(value);",
+    "question": "Update a value using multiplication and remainder. Repair the missing line in the displayed code.",
+    "options": [
+      "value += 4 * 2;",
+      "value += 4 / 2;",
+      "value += 5 * 2;",
+      "value += 3 * 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 27,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Boolean expression",
+    "code": "int age = 4;\nboolean eligible = (age >= 18 && age <= 60) || age == 16;\nSystem.out.println(eligible);",
+    "question": "Combine grouped logical conditions. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean eligible = (age >= 18 && age <= 60) || age == 16;",
+      "boolean eligible = (age < 18 && age <= 60) || age == 16;",
+      "boolean eligible = (age >= 18 && age > 60) || age == 16;",
+      "boolean eligible = (age >= 18 && age <= 60) || age != 16;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 28,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Floating-point comparison",
+    "code": "double amount = 20.25;\nboolean exact = amount == 10.25;\nSystem.out.println(exact);",
+    "question": "Compare a floating-point value to a target. Repair the missing line in the displayed code.",
+    "options": [
+      "boolean exact = amount == 10.25;",
+      "boolean exact = amount != 10.25;",
+      "boolean exact == amount == 10.25;",
+      "boolean exact = amount == 11.25;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 29,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Bitwise XOR",
+    "code": "int flags = 6;\nflags = flags ^ 3;\nSystem.out.println(flags);",
+    "question": "Toggle bits using the XOR operator. Repair the missing line in the displayed code.",
+    "options": [
+      "flags = flags ^ 3;",
+      "flags == flags ^ 3;",
+      "flags = flags ^ 4;",
+      "flags = flags ^ 2;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  },
+  {
+    "id": 30,
+    "chapter": 2,
+    "chapterName": "Operator Outpost",
+    "difficulty": "Hard",
+    "subtopic": "Operator precedence and casting",
+    "code": "double result = (double) 7 / 5 + 0.5;\nSystem.out.println(result);",
+    "question": "Cast before division to preserve a decimal result. Repair the missing line in the displayed code.",
+    "options": [
+      "double result = (double) 7 / 5 + 0.5;",
+      "double result = (double) 7 / 5 - 0.5;",
+      "double result = (double) 7 * 5 + 0.5;",
+      "double result == (double) 7 / 5 + 0.5;"
+    ],
+    "correct": 0,
+    "explanation": "The repair line is part of the intended Java logic. Check the variable names, condition, operator, and statement order."
+  }
+]
