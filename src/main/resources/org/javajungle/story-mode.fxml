@@ -92,7 +92,7 @@
                     </VBox>
                     <HBox spacing="18">
                         <Label fx:id="feedbackHeart" text="" styleClass="feedback-stat" />
-                        <Label fx:id="feedbackXp" text="" styleClass="feedback-stat" />
+                        <Label fx:id="feedbackXp" text="" styleClass="feedback-stat, feedback-stat-xp" />
                     </HBox>
                     <Label fx:id="tryAgain" text="" styleClass="try-again" />
                     <Region VBox.vgrow="ALWAYS" />

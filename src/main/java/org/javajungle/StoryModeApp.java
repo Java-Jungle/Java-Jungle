@@ -3,10 +3,23 @@ package org.javajungle;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.application.Application;
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
+import javafx.concurrent.Task;
+import javafx.geometry.Pos;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,27 +30,99 @@ import java.util.TreeMap;
 
 public class StoryModeApp extends Application {
     private static Stage primaryStage;
-    private static final List<StoryQuestion> QUESTION_BANK = loadQuestionBank();
-    private static final List<StoryCase> STORY_CASES = mixStoryCases(QUESTION_BANK).stream()
-            .map(StoryModeApp::toStoryCase)
-            .toList();
-    private static final ChapterQuestionBank CHAPTER_QUESTION_BANK = new ChapterQuestionBank();
+    private static List<StoryQuestion> QUESTION_BANK = List.of();
+    private static List<StoryCase> STORY_CASES = List.of();
+    private static ChapterQuestionBank CHAPTER_QUESTION_BANK = new ChapterQuestionBank();
     private static List<ChapterQuestion> chapterSession = List.of();
     private static int chapterSessionIndex;
     private static boolean chapterSessionActive;
     private static WelcomeController welcomeController;
+    private static final double SPLASH_DURATION_SECONDS = 7;
 
     @Override
     public void start(Stage stage) {
         primaryStage = stage;
-        Scene scene = new Scene(new javafx.scene.layout.StackPane(), 1280, 720);
+        Scene scene = new Scene(new StackPane(), 1280, 720, Color.web("#17251f"));
         scene.getStylesheets().add(StoryModeApp.class.getResource("story-mode.css").toExternalForm());
         stage.setTitle("Java Jungle");
+        stage.getIcons().add(new Image(StoryModeApp.class.getResource("java-jungle-icon.png").toExternalForm()));
         stage.setMinWidth(980);
         stage.setMinHeight(620);
         stage.setScene(scene);
-        showWelcome();
         stage.show();
+        showLoadingScreen(scene);
+    }
+
+    private void showLoadingScreen(Scene scene) {
+        StackPane root = new StackPane();
+        root.setStyle("-fx-background-color: linear-gradient(to bottom right, #14231d, #263b30, #111a18);");
+        VBox content = new VBox(22);
+        content.setAlignment(Pos.CENTER);
+        Image logo = new Image(StoryModeApp.class.getResource("java-jungle-splash.png").toExternalForm());
+        ImageView logoView = new ImageView(logo);
+        logoView.setFitWidth(720);
+        logoView.setFitHeight(390);
+        logoView.setPreserveRatio(true);
+        logoView.setStyle("-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.55), 24, 0.3, 0, 8);");
+        Label status = new Label("Preparing the jungle…");
+        status.setStyle("-fx-font-size: 16px; -fx-text-fill: #e7eee7;");
+        ProgressBar progress = new ProgressBar(0);
+        progress.setPrefWidth(300);
+        progress.setStyle("-fx-accent: #d2a84b;");
+        Label percentage = new Label("0%");
+        percentage.setStyle("-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #f0d98b;");
+        content.getChildren().addAll(logoView, status, progress, percentage);
+        root.getChildren().add(content);
+        scene.setRoot(root);
+
+        Task<Void> loading = new Task<>() {
+            @Override protected Void call() {
+                updateMessage("Loading Story Mode cases…");
+                List<StoryQuestion> questions = loadQuestionBank();
+                updateProgress(1, 12);
+                List<StoryCase> cases = mixStoryCases(questions).stream().map(StoryModeApp::toStoryCase).toList();
+                updateMessage("Preparing Chapter Mode…");
+                ChapterQuestionBank bank = new ChapterQuestionBank();
+                for (int chapter = 1; chapter <= 10; chapter++) {
+                    bank.loadChapter(chapter);
+                    updateProgress(chapter + 1, 12);
+                }
+                QUESTION_BANK = questions;
+                STORY_CASES = cases;
+                CHAPTER_QUESTION_BANK = bank;
+                updateMessage("Opening Java Jungle…");
+                updateProgress(12, 12);
+                return null;
+            }
+        };
+        percentage.textProperty().bind(progress.progressProperty().multiply(100).asString("%.0f%%"));
+        status.textProperty().bind(loading.messageProperty());
+        boolean[] startupComplete = {false};
+        boolean[] progressComplete = {false};
+        Runnable finishSplash = () -> {
+            if (startupComplete[0] && progressComplete[0]) showWelcome();
+        };
+        loading.setOnSucceeded(event -> {
+            startupComplete[0] = true;
+            status.textProperty().unbind();
+            status.setText("Ready to explore!");
+            finishSplash.run();
+        });
+        loading.setOnFailed(event -> {
+            status.textProperty().unbind();
+            status.setText("Could not load Java Jungle: " + loading.getException().getMessage());
+        });
+        Thread thread = new Thread(loading, "java-jungle-startup");
+        thread.setDaemon(true);
+        thread.start();
+        Timeline progressAnimation = new Timeline(
+                new KeyFrame(Duration.ZERO, new KeyValue(progress.progressProperty(), 0)),
+                new KeyFrame(Duration.seconds(SPLASH_DURATION_SECONDS), new KeyValue(progress.progressProperty(), 1)));
+        progressAnimation.setOnFinished(event -> {
+            progressComplete[0] = true;
+            finishSplash.run();
+        });
+        progressAnimation.play();
     }
 
     public static void showWelcome() {

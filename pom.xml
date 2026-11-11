@@ -39,12 +39,16 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.16.0</version>
             </plugin>
+
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>org.javajungle.StoryModeApp</mainClass>
+                    <mainClass>java.jungle/org.javajungle.StoryModeApp</mainClass>
+                    <launcher>JavaJungle</launcher>
+                    <jlinkImageName>JavaJungle</jlinkImageName>
+                    <jlinkZipName>JavaJungle-win-x64</jlinkZipName>
                     <options>
                         <option>--enable-native-access=javafx.graphics</option>
                     </options>

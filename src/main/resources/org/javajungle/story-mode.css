@@ -21,7 +21,7 @@
 .vine-stem { -fx-fill: transparent; -fx-stroke: #438558; -fx-stroke-width: 2; }
 .jungle-leaves { -fx-fill: #326a48; -fx-stroke: #61936b; -fx-stroke-width: 0.7; }
 .accent-cyan { -fx-text-fill: #00d9f5; }
-.accent-green { -fx-text-fill: #00e5cf; }
+.accent-green { -fx-text-fill: #62e8ff; }
 .xp-value { -fx-padding: 0 0 0 8; }
 .muted { -fx-text-fill: #63728f; }
 .case-name, .briefing-text { -fx-text-fill: #b9bdcc; -fx-font-size: 13px; }
@@ -427,6 +427,9 @@ VBox.map-trail-card { -fx-border-color: #18845e; }
 .welcome-stat { -fx-min-width: 0; -fx-min-height: 74; -fx-padding: 8 5; -fx-background-color: rgba(24, 39, 38, 0.85); -fx-border-color: #5e8380; -fx-border-radius: 11; -fx-background-radius: 11; }
 .welcome-stat-value { -fx-font-size: 23px; }
 .welcome-stat-xp { -fx-text-fill: #62e8ff; -fx-effect: dropshadow(gaussian, #31dfff66, 8, 0.2, 0, 0); }
+.feedback-stat-xp { -fx-text-fill: #62e8ff; }
+.terminal .brand-bar .accent-green,
+.terminal .brand-bar .xp-value { -fx-text-fill: #00d9f5; }
 .welcome-stat-label { -fx-font-size: 9px; -fx-letter-spacing: 0.6px; }
 .returning-avatar-frame { -fx-pref-width: 164; -fx-pref-height: 126; -fx-max-width: 164; -fx-max-height: 126; -fx-background-color: transparent; -fx-border-color: transparent; -fx-effect: dropshadow(gaussian, #51d8e855, 14, 0.18, 0, 0); }
 .player-avatar-badge { -fx-min-width: 48; -fx-min-height: 48; -fx-padding: 3; -fx-background-color: #1c2c30; -fx-background-image: url("jungle-bg.png"); -fx-background-size: cover; -fx-background-position: center; -fx-background-radius: 8; -fx-border-color: #62cfe2; -fx-border-radius: 8; }
@@ -526,7 +529,7 @@ VBox.map-trail-card { -fx-border-color: #18845e; }
 .pick-topbar .trail-xp-bar { -fx-pref-width: 118; -fx-min-width: 118; }
 .pick-topbar .trail-rank { -fx-min-width: 48; -fx-alignment: center; -fx-padding: 6 9; -fx-background-color: rgba(49, 42, 21, 0.8); -fx-background-radius: 7; }
 .pick-topbar .hearts { -fx-padding: 0 6; }
-.pick-topbar .accent-green { -fx-padding: 6 10; -fx-background-color: rgba(11, 41, 43, 0.82); -fx-background-radius: 7; -fx-font-weight: bold; -fx-text-fill: #65e7f2; }
+.pick-topbar .accent-green { -fx-padding: 6 10; -fx-background-color: rgba(11, 41, 43, 0.82); -fx-background-radius: 7; -fx-font-weight: bold; -fx-text-fill: #62e8ff; }
 
 .pick-heading-box { -fx-background-color: rgba(5, 17, 26, 0.78); -fx-background-radius: 18; -fx-padding: 12 34; -fx-border-color: rgba(89, 181, 189, 0.48); -fx-border-radius: 18; }
 .pick-heading { -fx-text-fill: #74e8d1; -fx-font-size: 26px; -fx-font-weight: bold; }
